@@ -27,7 +27,70 @@ def extract_course_details(course_code):
 # 3. Configure the Streamlit Page
 st.set_page_config(page_title="RUN Timetable Generator", layout="wide")
 
+
+def apply_theme_mode(mode: str):
+    if mode == "Light":
+        css = """
+            <style>
+            html, body, [data-testid='stAppViewContainer'] {
+                background-color: #ffffff !important;
+                color: #0f172a !important;
+            }
+            .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-1d391kg {
+                background-color: #ffffff !important;
+                color: #0f172a !important;
+            }
+            .stButton>button, .css-1emrehy.edgvbvh3 {
+                background-color: #1f77b4 !important;
+                color: #ffffff !important;
+            }
+            </style>
+        """
+        st.markdown(css, unsafe_allow_html=True)
+    elif mode == "Dark":
+        css = """
+            <style>
+            html, body, [data-testid='stAppViewContainer'] {
+                background-color: #0f172a !important;
+                color: #f8fafc !important;
+            }
+            .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-1d391kg {
+                background-color: #0f172a !important;
+                color: #f8fafc !important;
+            }
+            .stButton>button, .css-1emrehy.edgvbvh3 {
+                background-color: #1f77b4 !important;
+                color: #ffffff !important;
+            }
+            </style>
+        """
+        st.markdown(css, unsafe_allow_html=True)
+    else:
+        css = """
+            <style>
+            @media (prefers-color-scheme: dark) {
+                html, body, [data-testid='stAppViewContainer'] {
+                    background-color: #0f172a !important;
+                    color: #f8fafc !important;
+                }
+            }
+            @media (prefers-color-scheme: light) {
+                html, body, [data-testid='stAppViewContainer'] {
+                    background-color: #ffffff !important;
+                    color: #0f172a !important;
+                }
+            }
+            </style>
+        """
+        st.markdown(css, unsafe_allow_html=True)
+
+
 st.title("🎓 RUN Automated Timetable System")
+col_left, col_right = st.columns([4, 1])
+with col_right:
+    theme_mode = st.selectbox("", ["System", "Light", "Dark"], index=0, label_visibility="collapsed")
+apply_theme_mode(theme_mode)
+
 st.markdown("---")
 
 # Navigation
