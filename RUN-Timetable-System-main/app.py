@@ -365,7 +365,9 @@ elif menu == "Generate Timetable":
                         st.success(f"🎉 Generated! (Clashes: {best_schedule.clashes}, Fitness Score: {best_schedule.fitness})")
 
                         table_data = []
-                        days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                        exam_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                        lecture_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+                        full_week_order = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
                         for assignment in best_schedule.assignments:
                             c = assignment['course']
@@ -377,14 +379,15 @@ elif menu == "Generate Timetable":
                             if timetable_type == "Exam Timetable":
                                 day_index = slot // 3
                                 week_num = (day_index // 6) + 1  # Calculates if it's Week 1, 2, 3, etc.
-                                day_name = days[day_index % 6]
+                                day_name = exam_days[day_index % len(exam_days)]
                                 day_str = f"Week {week_num} - {day_name}"
 
                                 session_idx = slot % 3
                                 times = ["08:00 AM - 11:00 AM", "12:00 PM - 03:00 PM", "04:00 PM - 07:00 PM"]
                                 time_str = times[session_idx]
                             else:
-                                day_str = days[slot // 4]
+                                day_name = lecture_days[slot // 4]
+                                day_str = day_name
                                 session_idx = slot % 4
                                 times = ["08:00 AM - 10:00 AM", "10:00 AM - 12:00 PM", "01:00 PM - 03:00 PM", "03:00 PM - 05:00 PM"]
                                 time_str = times[session_idx]
@@ -404,7 +407,7 @@ elif menu == "Generate Timetable":
                         result_df = pd.DataFrame(table_data)
 
                         # Sort chronologically for better reading
-                        day_order = {day: i for i, day in enumerate(days)}
+                        day_order = {day: i for i, day in enumerate(full_week_order)}
                         result_df['Day_Name'] = result_df['Day'].apply(lambda x: x.split(' - ')[-1])
                         result_df['Day_Rank'] = result_df['Day_Name'].map(day_order)
                         result_df = result_df.sort_values(by=['Day_Rank', 'Time']).drop(columns=['Day_Rank', 'Day_Name'])
