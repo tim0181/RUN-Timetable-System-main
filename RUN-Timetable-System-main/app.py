@@ -480,11 +480,34 @@ elif menu == "Generate Timetable":
                             pivot = pivot.reindex(columns=display_times)
                             st.subheader(f"Department: {department}")
                             
-                            # Style the dataframe to highlight clashes (cells with multiple courses)
+                            # Style the dataframe to highlight clashes (cells with actual venue conflicts)
                             def highlight_clashes(val):
-                                """Highlight cells with multiple courses (containing newlines)"""
-                                if '\n' in str(val) and str(val).strip() != '':
-                                    return 'border: 3px solid red; background-color: #ffe6e6;'
+                                """Highlight cells with actual scheduling conflicts"""
+                                val_str = str(val).strip()
+                                if not val_str:
+                                    return ''
+                                
+                                # Check if cell has multiple courses (newlines indicate multiple entries)
+                                if '\n' in val_str:
+                                    # Extract venue names from each course entry
+                                    courses = val_str.split('\n')
+                                    venues_per_course = []
+                                    for course in courses:
+                                        # Parse format: "CMP 401 (Title)\nvenue1, venue2"
+                                        lines = course.strip().split('\n')
+                                        if len(lines) > 1:
+                                            venue_info = lines[-1]  # Last line is venues
+                                            venues_per_course.append(venue_info)
+                                    
+                                    # Check if same venue appears in multiple courses in this cell
+                                    all_venues = []
+                                    for venue_info in venues_per_course:
+                                        all_venues.extend([v.strip() for v in venue_info.split(',')])
+                                    
+                                    # If any venue appears more than once, it's a conflict
+                                    if len(all_venues) > len(set(all_venues)):
+                                        return 'border: 3px solid red; background-color: #ffe6e6;'
+                                
                                 return ''
                             
                             styled_pivot = pivot.style.map(highlight_clashes)
