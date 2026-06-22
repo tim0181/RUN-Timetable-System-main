@@ -350,31 +350,36 @@ elif menu == "Generate Timetable":
         if len(target_courses) == 0 or len(all_venues) == 0:
             st.warning("⚠️ Missing Data: Ensure you have uploaded both Courses and Venues for this semester.")
         else:
+            if 'generated_timetable' not in st.session_state:
+                st.session_state.generated_timetable = None
+                st.session_state.generated_timetable_type = None
+                st.session_state.generated_timetable_semester = None
+                st.session_state.generated_timetable_display_times = None
+
             if st.button(f"🚀 Generate {timetable_type}", use_container_width=True):
                 with st.spinner("🧬 Generating timetable... Please wait."):
-                    
                     # Pass the exact number of weeks into the engine!
                     best_schedule = generate_optimal_timetable(target_courses, all_venues, timetable_type, exam_weeks)
-                    
+
                     if best_schedule:
                         st.success(f"🎉 Generated! (Clashes: {best_schedule.clashes}, Fitness Score: {best_schedule.fitness})")
-                        
+
                         table_data = []
                         days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-                        
+
                         for assignment in best_schedule.assignments:
                             c = assignment['course']
                             v_list = assignment['venues']
                             slot = assignment['slot']
                             venue_names = ", ".join([v.name for v in v_list])
-                            
+
                             # 3. Dynamic Week & Day Translation
                             if timetable_type == "Exam Timetable":
                                 day_index = slot // 3
                                 week_num = (day_index // 6) + 1  # Calculates if it's Week 1, 2, 3, etc.
                                 day_name = days[day_index % 6]
                                 day_str = f"Week {week_num} - {day_name}"
-                                
+
                                 session_idx = slot % 3
                                 times = ["08:00 AM - 11:00 AM", "12:00 PM - 03:00 PM", "04:00 PM - 07:00 PM"]
                                 time_str = times[session_idx]
@@ -383,7 +388,7 @@ elif menu == "Generate Timetable":
                                 session_idx = slot % 4
                                 times = ["08:00 AM - 10:00 AM", "10:00 AM - 12:00 PM", "01:00 PM - 03:00 PM", "03:00 PM - 05:00 PM"]
                                 time_str = times[session_idx]
-                                
+
                             table_data.append({
                                 "Department": c.department,
                                 "Course Code": c.course_code,
@@ -394,39 +399,75 @@ elif menu == "Generate Timetable":
                                 "Time": time_str,
                                 "Allocated Venue(s)": venue_names
                             })
-                            
+
                         # 3. Display the final output
                         result_df = pd.DataFrame(table_data)
-                        
+
                         # Sort chronologically for better reading
                         day_order = {day: i for i, day in enumerate(days)}
                         result_df['Day_Name'] = result_df['Day'].apply(lambda x: x.split(' - ')[-1])
                         result_df['Day_Rank'] = result_df['Day_Name'].map(day_order)
                         result_df = result_df.sort_values(by=['Day_Rank', 'Time']).drop(columns=['Day_Rank', 'Day_Name'])
-                        
-                        # Level filter for displayed timetable
-                        level_options = ["All"] + sorted(result_df['Level'].unique().tolist())
-                        selected_level = st.selectbox("Filter by Course Level", level_options, index=0)
-                        if selected_level != "All":
-                            filtered_df = result_df[result_df['Level'] == selected_level]
-                        else:
-                            filtered_df = result_df
-                        
-                        if filtered_df.empty:
-                            st.warning("No timetable entries match the selected level.")
-                        else:
-                            # Build a pivot for each department with Day rows and Time columns in ascending order
-                            display_times = [
-                                "08:00 AM - 11:00 AM",
-                                "12:00 PM - 03:00 PM",
-                                "04:00 PM - 07:00 PM"
-                            ] if timetable_type == "Exam Timetable" else [
-                                "08:00 AM - 10:00 AM",
-                                "10:00 AM - 12:00 PM",
-                                "01:00 PM - 03:00 PM",
-                                "03:00 PM - 05:00 PM"
-                            ]
-                            
+
+                        display_times = [
+                            "08:00 AM - 11:00 AM",
+                            "12:00 PM - 03:00 PM",
+                            "04:00 PM - 07:00 PM"
+                        ] if timetable_type == "Exam Timetable" else [
+                            "08:00 AM - 10:00 AM",
+                            "10:00 AM - 12:00 PM",
+                            "01:00 PM - 03:00 PM",
+                            "03:00 PM - 05:00 PM"
+                        ]
+
+                        st.session_state.generated_timetable = result_df
+                        st.session_state.generated_timetable_type = timetable_type
+                        st.session_state.generated_timetable_semester = target_semester
+                        st.session_state.generated_timetable_display_times = display_times
+
+            if st.session_state.generated_timetable is not None:
+                if st.session_state.generated_timetable_type == timetable_type and st.session_state.generated_timetable_semester == target_semester:
+                    result_df = st.session_state.generated_timetable
+                    display_times = st.session_state.generated_timetable_display_times
+
+                    level_options = ["All"] + sorted(result_df['Level'].unique().tolist())
+                    selected_level = st.selectbox("Filter by Course Level", level_options, index=0)
+                    if selected_level != "All":
+                        filtered_df = result_df[result_df['Level'] == selected_level]
+                    else:
+                        filtered_df = result_df
+
+                    if filtered_df.empty:
+                        st.warning("No timetable entries match the selected level.")
+                    else:
+                        for department, dept_df in filtered_df.groupby('Department'):
+                            dept_df = dept_df.copy()
+                            dept_df['Course Details'] = dept_df.apply(
+                                lambda row: f"{row['Course Code']} ({row['Title']})\n{row['Allocated Venue(s)']}",
+                                axis=1
+                            )
+                            pivot = dept_df.pivot_table(
+                                index='Day',
+                                columns='Time',
+                                values='Course Details',
+                                aggfunc=' \n'.join,
+                                fill_value=''
+                            )
+                            pivot = pivot.reindex(columns=display_times)
+                            st.subheader(f"Department: {department}")
+                            st.dataframe(pivot, use_container_width=True)
+
+                            dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
+                            st.download_button(
+                                label=f"📥 Download {department} Timetable as CSV",
+                                data=dept_csv,
+                                file_name=f"{timetable_type}_{target_semester}_{department}.csv",
+                                mime="text/csv",
+                                key=f"download_{department}"
+                            )
+
+                        excel_buffer = BytesIO()
+                        with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
                             for department, dept_df in filtered_df.groupby('Department'):
                                 dept_df = dept_df.copy()
                                 dept_df['Course Details'] = dept_df.apply(
@@ -440,46 +481,16 @@ elif menu == "Generate Timetable":
                                     aggfunc=' \n'.join,
                                     fill_value=''
                                 )
-                                
-                                # Ensure the full time order is preserved in the columns
                                 pivot = pivot.reindex(columns=display_times)
-                                st.subheader(f"Department: {department}")
-                                st.dataframe(pivot, use_container_width=True)
-                                
-                                dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
-                                st.download_button(
-                                    label=f"📥 Download {department} Timetable as CSV",
-                                    data=dept_csv,
-                                    file_name=f"{timetable_type}_{target_semester}_{department}.csv",
-                                    mime="text/csv",
-                                    key=f"download_{department}"
-                                )
-                            
-                            # Download full timetable with department sheets as Excel
-                            excel_buffer = BytesIO()
-                            with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
-                                for department, dept_df in filtered_df.groupby('Department'):
-                                    dept_df = dept_df.copy()
-                                    dept_df['Course Details'] = dept_df.apply(
-                                        lambda row: f"{row['Course Code']} ({row['Title']})\n{row['Allocated Venue(s)']}",
-                                        axis=1
-                                    )
-                                    pivot = dept_df.pivot_table(
-                                        index='Day',
-                                        columns='Time',
-                                        values='Course Details',
-                                        aggfunc=' \n'.join,
-                                        fill_value=''
-                                    )
-                                    pivot = pivot.reindex(columns=display_times)
-                                    sheet_name = department[:31]
-                                    pivot.reset_index().to_excel(writer, sheet_name=sheet_name, index=False)
-                            excel_buffer.seek(0)
-                            st.download_button(
-                                label="📥 Download Full Timetable as Excel",
-                                data=excel_buffer,
-                                file_name=f"{timetable_type}_{target_semester}.xlsx",
-                                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                            )
-                    else:
-                        st.error("Algorithm failed to generate a schedule.")        
+                                sheet_name = department[:31]
+                                pivot.reset_index().to_excel(writer, sheet_name=sheet_name, index=False)
+                        excel_buffer.seek(0)
+                        st.download_button(
+                            label="📥 Download Full Timetable as Excel",
+                            data=excel_buffer,
+                            file_name=f"{timetable_type}_{target_semester}.xlsx",
+                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        )
+                else:
+                    st.info("A timetable is stored for a previous configuration. Change back to the same timetable type and semester to continue filtering it, or regenerate for the current settings.")
+        
