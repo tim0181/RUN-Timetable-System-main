@@ -1,0 +1,1401 @@
+Department,Course Code,Course Title,Level,Students,Category
+PSY,PSY 498,Applied PSY,200,197,Departmental
+BCH,BCH 187,Advanced BCH,300,197,Departmental
+CMP,CMP 499,Modern CMP,300,32,Departmental
+GST,GST 481,Introduction to GST,500,964,Universal
+PHY,PHY 356,Advanced PHY,100,198,Departmental
+PSY,PSY 155,Principles of PSY,400,41,Departmental
+FIC,FIC 228,Applied FIC,100,781,Universal
+PSY,PSY 240,Modern PSY,300,192,Departmental
+POL,POL 465,Modern POL,300,54,Departmental
+LAW,LAW 411,Advanced LAW,200,157,Departmental
+FIC,FIC 316,Applied FIC,400,843,Universal
+POL,POL 445,Advanced POL,100,80,Departmental
+BUS,BUS 256,Principles of BUS,300,142,Departmental
+GST,GST 577,Introduction to GST,500,1107,Universal
+GST,GST 403,Advanced GST,400,946,Universal
+ECN,ECN 395,Applied ECN,400,156,Departmental
+MTH,MTH 391,Introduction to MTH,100,99,Departmental
+ENG,ENG 450,Applied ENG,300,95,Departmental
+ACC,ACC 211,Applied ACC,500,103,Departmental
+PHY,PHY 445,Introduction to PHY,500,121,Departmental
+MCB,MCB 158,Modern MCB,100,73,Departmental
+CMP,CMP 135,Modern CMP,100,186,Departmental
+PHY,PHY 574,Introduction to PHY,200,31,Departmental
+ACC,ACC 522,Principles of ACC,500,156,Departmental
+ACC,ACC 460,Fundamentals of ACC,200,74,Departmental
+CMP,CMP 238,Advanced CMP,100,121,Departmental
+GST,GST 264,Introduction to GST,100,707,Universal
+BCH,BCH 436,Introduction to BCH,200,97,Departmental
+BUS,BUS 481,Advanced BUS,200,101,Departmental
+ENG,ENG 238,Introduction to ENG,500,188,Departmental
+POL,POL 508,Advanced POL,200,161,Departmental
+MTH,MTH 473,Fundamentals of MTH,200,132,Departmental
+PSY,PSY 340,Fundamentals of PSY,300,133,Departmental
+GST,GST 157,Modern GST,500,1147,Universal
+PHY,PHY 254,Applied PHY,200,86,Departmental
+ACC,ACC 588,Principles of ACC,200,111,Departmental
+PSY,PSY 594,Advanced PSY,200,197,Departmental
+GST,GST 281,Advanced GST,200,1043,Universal
+ACC,ACC 384,Modern ACC,300,87,Departmental
+LAW,LAW 458,Applied LAW,100,37,Departmental
+MCB,MCB 295,Applied MCB,200,40,Departmental
+LAW,LAW 375,Modern LAW,200,83,Departmental
+CMP,CMP 597,Fundamentals of CMP,200,183,Departmental
+LAW,LAW 125,Fundamentals of LAW,100,39,Departmental
+ECN,ECN 352,Principles of ECN,200,101,Departmental
+ECN,ECN 248,Fundamentals of ECN,400,163,Departmental
+PHY,PHY 459,Fundamentals of PHY,300,97,Departmental
+FIC,FIC 270,Principles of FIC,200,704,Universal
+MCB,MCB 457,Advanced MCB,400,147,Departmental
+ACC,ACC 359,Modern ACC,200,148,Departmental
+MTH,MTH 499,Applied MTH,500,169,Departmental
+POL,POL 228,Applied POL,500,103,Departmental
+ECN,ECN 313,Fundamentals of ECN,300,54,Departmental
+BCH,BCH 110,Fundamentals of BCH,300,26,Departmental
+LAW,LAW 572,Applied LAW,300,108,Departmental
+PSY,PSY 418,Principles of PSY,400,82,Departmental
+BUS,BUS 261,Introduction to BUS,500,146,Departmental
+MTH,MTH 250,Modern MTH,500,178,Departmental
+BUS,BUS 284,Principles of BUS,300,111,Departmental
+PHY,PHY 344,Principles of PHY,100,136,Departmental
+CMP,CMP 448,Fundamentals of CMP,400,182,Departmental
+CMP,CMP 236,Fundamentals of CMP,200,42,Departmental
+CMP,CMP 350,Applied CMP,200,175,Departmental
+BUS,BUS 511,Principles of BUS,100,161,Departmental
+ACC,ACC 598,Principles of ACC,500,24,Departmental
+ECN,ECN 575,Introduction to ECN,500,122,Departmental
+MTH,MTH 119,Modern MTH,300,150,Departmental
+BCH,BCH 178,Applied BCH,300,67,Departmental
+POL,POL 260,Fundamentals of POL,400,28,Departmental
+GST,GST 155,Modern GST,300,538,Universal
+ECN,ECN 113,Introduction to ECN,100,54,Departmental
+PHY,PHY 108,Fundamentals of PHY,400,37,Departmental
+ACC,ACC 186,Applied ACC,200,189,Departmental
+ECN,ECN 539,Applied ECN,500,173,Departmental
+PSY,PSY 276,Applied PSY,500,117,Departmental
+POL,POL 161,Applied POL,400,83,Departmental
+ENG,ENG 170,Fundamentals of ENG,100,66,Departmental
+MCB,MCB 245,Introduction to MCB,200,139,Departmental
+GST,GST 171,Principles of GST,500,797,Universal
+CMP,CMP 262,Fundamentals of CMP,500,132,Departmental
+GST,GST 535,Fundamentals of GST,200,1180,Universal
+LAW,LAW 382,Applied LAW,500,83,Departmental
+ECN,ECN 108,Fundamentals of ECN,100,176,Departmental
+MTH,MTH 201,Introduction to MTH,200,155,Departmental
+CMP,CMP 598,Advanced CMP,100,154,Departmental
+BUS,BUS 150,Advanced BUS,100,165,Departmental
+PSY,PSY 490,Principles of PSY,200,151,Departmental
+ACC,ACC 177,Principles of ACC,300,177,Departmental
+BUS,BUS 413,Applied BUS,100,133,Departmental
+PHY,PHY 346,Fundamentals of PHY,200,183,Departmental
+BCH,BCH 171,Principles of BCH,300,184,Departmental
+PHY,PHY 361,Introduction to PHY,500,136,Departmental
+GST,GST 548,Fundamentals of GST,400,705,Universal
+CMP,CMP 428,Applied CMP,100,102,Departmental
+BUS,BUS 497,Fundamentals of BUS,300,179,Departmental
+BCH,BCH 135,Fundamentals of BCH,100,111,Departmental
+ACC,ACC 257,Advanced ACC,100,77,Departmental
+POL,POL 358,Fundamentals of POL,100,195,Departmental
+ECN,ECN 400,Modern ECN,200,71,Departmental
+FIC,FIC 513,Introduction to FIC,100,678,Universal
+ENG,ENG 218,Introduction to ENG,200,141,Departmental
+BUS,BUS 177,Fundamentals of BUS,100,94,Departmental
+MCB,MCB 445,Modern MCB,100,112,Departmental
+ECN,ECN 420,Modern ECN,400,122,Departmental
+FIC,FIC 483,Introduction to FIC,400,955,Universal
+MCB,MCB 202,Introduction to MCB,300,180,Departmental
+BCH,BCH 444,Introduction to BCH,300,134,Departmental
+MCB,MCB 341,Introduction to MCB,400,191,Departmental
+PSY,PSY 457,Principles of PSY,200,33,Departmental
+BUS,BUS 441,Modern BUS,500,182,Departmental
+BCH,BCH 437,Fundamentals of BCH,300,119,Departmental
+CMP,CMP 550,Applied CMP,200,88,Departmental
+CMP,CMP 507,Introduction to CMP,500,153,Departmental
+CMP,CMP 344,Advanced CMP,200,108,Departmental
+LAW,LAW 218,Modern LAW,300,48,Departmental
+ENG,ENG 254,Advanced ENG,200,198,Departmental
+MCB,MCB 115,Fundamentals of MCB,300,151,Departmental
+ACC,ACC 149,Advanced ACC,400,196,Departmental
+POL,POL 307,Principles of POL,100,89,Departmental
+POL,POL 499,Modern POL,400,188,Departmental
+PSY,PSY 129,Principles of PSY,500,36,Departmental
+GST,GST 585,Fundamentals of GST,300,820,Universal
+GST,GST 402,Introduction to GST,400,800,Universal
+PHY,PHY 255,Applied PHY,500,69,Departmental
+ACC,ACC 551,Modern ACC,400,196,Departmental
+BCH,BCH 526,Introduction to BCH,300,70,Departmental
+PSY,PSY 344,Introduction to PSY,200,99,Departmental
+GST,GST 203,Applied GST,500,808,Universal
+CMP,CMP 177,Applied CMP,300,183,Departmental
+FIC,FIC 291,Advanced FIC,300,545,Universal
+BCH,BCH 420,Modern BCH,400,104,Departmental
+ENG,ENG 323,Applied ENG,500,128,Departmental
+PSY,PSY 343,Principles of PSY,200,159,Departmental
+LAW,LAW 367,Fundamentals of LAW,100,63,Departmental
+FIC,FIC 420,Applied FIC,300,1051,Universal
+ENG,ENG 422,Advanced ENG,100,70,Departmental
+ENG,ENG 575,Fundamentals of ENG,100,195,Departmental
+ACC,ACC 414,Advanced ACC,300,190,Departmental
+CMP,CMP 101,Advanced CMP,100,193,Departmental
+CMP,CMP 256,Principles of CMP,500,108,Departmental
+GST,GST 302,Principles of GST,200,1184,Universal
+MCB,MCB 130,Modern MCB,300,145,Departmental
+PSY,PSY 435,Introduction to PSY,200,87,Departmental
+ACC,ACC 506,Fundamentals of ACC,500,68,Departmental
+FIC,FIC 441,Introduction to FIC,100,683,Universal
+ENG,ENG 424,Introduction to ENG,300,100,Departmental
+ENG,ENG 294,Modern ENG,300,158,Departmental
+GST,GST 471,Advanced GST,200,994,Universal
+POL,POL 114,Applied POL,500,89,Departmental
+MTH,MTH 294,Introduction to MTH,300,180,Departmental
+BCH,BCH 503,Applied BCH,200,168,Departmental
+BCH,BCH 210,Principles of BCH,400,148,Departmental
+ECN,ECN 404,Fundamentals of ECN,500,145,Departmental
+MTH,MTH 493,Advanced MTH,200,156,Departmental
+BCH,BCH 131,Fundamentals of BCH,500,111,Departmental
+ECN,ECN 242,Applied ECN,500,194,Departmental
+PHY,PHY 331,Principles of PHY,100,145,Departmental
+CMP,CMP 144,Introduction to CMP,300,83,Departmental
+CMP,CMP 493,Introduction to CMP,300,171,Departmental
+MCB,MCB 562,Advanced MCB,100,143,Departmental
+MTH,MTH 212,Fundamentals of MTH,200,126,Departmental
+MTH,MTH 414,Applied MTH,200,58,Departmental
+BCH,BCH 235,Fundamentals of BCH,500,189,Departmental
+LAW,LAW 435,Modern LAW,400,180,Departmental
+ECN,ECN 482,Modern ECN,300,159,Departmental
+PSY,PSY 355,Fundamentals of PSY,300,137,Departmental
+PHY,PHY 434,Advanced PHY,100,118,Departmental
+MCB,MCB 128,Introduction to MCB,500,62,Departmental
+ACC,ACC 231,Modern ACC,400,186,Departmental
+CMP,CMP 555,Modern CMP,100,191,Departmental
+ENG,ENG 465,Principles of ENG,300,51,Departmental
+MCB,MCB 538,Principles of MCB,300,38,Departmental
+BUS,BUS 460,Modern BUS,200,88,Departmental
+FIC,FIC 524,Applied FIC,300,741,Universal
+ENG,ENG 249,Modern ENG,400,29,Departmental
+PSY,PSY 543,Principles of PSY,300,70,Departmental
+PSY,PSY 536,Fundamentals of PSY,500,42,Departmental
+MTH,MTH 115,Principles of MTH,500,126,Departmental
+FIC,FIC 161,Introduction to FIC,400,876,Universal
+GST,GST 541,Modern GST,400,562,Universal
+ECN,ECN 372,Applied ECN,200,80,Departmental
+MCB,MCB 417,Introduction to MCB,200,186,Departmental
+CMP,CMP 117,Modern CMP,500,182,Departmental
+FIC,FIC 192,Introduction to FIC,400,1114,Universal
+MTH,MTH 331,Advanced MTH,200,118,Departmental
+CMP,CMP 580,Fundamentals of CMP,300,169,Departmental
+PSY,PSY 456,Applied PSY,300,67,Departmental
+ACC,ACC 111,Introduction to ACC,100,198,Departmental
+GST,GST 294,Modern GST,300,859,Universal
+ECN,ECN 255,Fundamentals of ECN,400,99,Departmental
+ACC,ACC 138,Applied ACC,100,75,Departmental
+PSY,PSY 260,Fundamentals of PSY,100,101,Departmental
+PHY,PHY 502,Fundamentals of PHY,300,32,Departmental
+CMP,CMP 393,Introduction to CMP,200,199,Departmental
+ECN,ECN 401,Fundamentals of ECN,300,40,Departmental
+FIC,FIC 123,Advanced FIC,400,1042,Universal
+PHY,PHY 128,Advanced PHY,200,50,Departmental
+FIC,FIC 306,Applied FIC,200,743,Universal
+POL,POL 303,Introduction to POL,400,86,Departmental
+GST,GST 542,Fundamentals of GST,200,662,Universal
+PHY,PHY 379,Fundamentals of PHY,400,67,Departmental
+ECN,ECN 472,Advanced ECN,400,45,Departmental
+ENG,ENG 524,Fundamentals of ENG,100,26,Departmental
+MTH,MTH 219,Introduction to MTH,300,26,Departmental
+BCH,BCH 336,Applied BCH,400,41,Departmental
+ECN,ECN 521,Advanced ECN,200,131,Departmental
+LAW,LAW 568,Applied LAW,200,163,Departmental
+MTH,MTH 584,Introduction to MTH,500,153,Departmental
+PHY,PHY 471,Modern PHY,400,74,Departmental
+ENG,ENG 192,Principles of ENG,100,132,Departmental
+BCH,BCH 149,Applied BCH,200,157,Departmental
+ENG,ENG 358,Fundamentals of ENG,500,24,Departmental
+GST,GST 361,Introduction to GST,300,671,Universal
+ENG,ENG 580,Fundamentals of ENG,500,117,Departmental
+CMP,CMP 377,Applied CMP,500,119,Departmental
+PHY,PHY 183,Fundamentals of PHY,200,104,Departmental
+ENG,ENG 250,Advanced ENG,200,86,Departmental
+BCH,BCH 442,Principles of BCH,200,113,Departmental
+BCH,BCH 484,Applied BCH,100,123,Departmental
+ACC,ACC 476,Fundamentals of ACC,300,164,Departmental
+ECN,ECN 470,Modern ECN,300,51,Departmental
+ENG,ENG 475,Modern ENG,200,136,Departmental
+POL,POL 491,Modern POL,500,172,Departmental
+CMP,CMP 474,Advanced CMP,400,200,Departmental
+CMP,CMP 522,Applied CMP,400,137,Departmental
+ACC,ACC 341,Principles of ACC,500,89,Departmental
+BCH,BCH 549,Applied BCH,300,144,Departmental
+ACC,ACC 467,Modern ACC,200,26,Departmental
+MCB,MCB 375,Applied MCB,200,181,Departmental
+GST,GST 466,Fundamentals of GST,300,745,Universal
+BUS,BUS 343,Introduction to BUS,500,147,Departmental
+FIC,FIC 205,Advanced FIC,100,1083,Universal
+FIC,FIC 196,Principles of FIC,300,547,Universal
+BUS,BUS 245,Introduction to BUS,400,121,Departmental
+ACC,ACC 127,Advanced ACC,100,134,Departmental
+BCH,BCH 158,Applied BCH,400,48,Departmental
+PSY,PSY 277,Advanced PSY,300,56,Departmental
+ENG,ENG 497,Introduction to ENG,100,174,Departmental
+PHY,PHY 460,Principles of PHY,400,191,Departmental
+MCB,MCB 377,Introduction to MCB,100,122,Departmental
+ECN,ECN 579,Modern ECN,500,172,Departmental
+PHY,PHY 418,Principles of PHY,400,69,Departmental
+BCH,BCH 560,Introduction to BCH,300,81,Departmental
+ECN,ECN 323,Modern ECN,100,91,Departmental
+PSY,PSY 395,Principles of PSY,500,177,Departmental
+BUS,BUS 239,Introduction to BUS,500,82,Departmental
+PSY,PSY 306,Fundamentals of PSY,400,93,Departmental
+GST,GST 237,Advanced GST,500,897,Universal
+PSY,PSY 153,Principles of PSY,500,101,Departmental
+PSY,PSY 158,Modern PSY,400,83,Departmental
+CMP,CMP 354,Advanced CMP,300,59,Departmental
+ECN,ECN 234,Introduction to ECN,100,165,Departmental
+MTH,MTH 569,Principles of MTH,300,195,Departmental
+LAW,LAW 454,Advanced LAW,400,58,Departmental
+BUS,BUS 238,Principles of BUS,300,71,Departmental
+MCB,MCB 527,Introduction to MCB,100,118,Departmental
+ENG,ENG 145,Applied ENG,300,29,Departmental
+PSY,PSY 102,Principles of PSY,100,176,Departmental
+BUS,BUS 536,Applied BUS,500,90,Departmental
+POL,POL 396,Introduction to POL,100,61,Departmental
+ECN,ECN 267,Fundamentals of ECN,500,44,Departmental
+ACC,ACC 361,Fundamentals of ACC,100,82,Departmental
+BUS,BUS 363,Fundamentals of BUS,400,82,Departmental
+LAW,LAW 417,Applied LAW,200,181,Departmental
+BCH,BCH 434,Applied BCH,400,85,Departmental
+BCH,BCH 368,Advanced BCH,300,167,Departmental
+ECN,ECN 169,Modern ECN,200,96,Departmental
+FIC,FIC 234,Principles of FIC,500,1016,Universal
+MTH,MTH 537,Fundamentals of MTH,200,61,Departmental
+ACC,ACC 546,Advanced ACC,100,123,Departmental
+GST,GST 475,Introduction to GST,400,640,Universal
+MTH,MTH 447,Introduction to MTH,400,59,Departmental
+LAW,LAW 423,Modern LAW,300,96,Departmental
+MTH,MTH 515,Principles of MTH,200,177,Departmental
+ENG,ENG 387,Modern ENG,300,179,Departmental
+POL,POL 586,Fundamentals of POL,200,59,Departmental
+PHY,PHY 342,Introduction to PHY,400,155,Departmental
+ENG,ENG 372,Modern ENG,300,81,Departmental
+BUS,BUS 293,Principles of BUS,500,133,Departmental
+ENG,ENG 433,Introduction to ENG,300,186,Departmental
+CMP,CMP 175,Introduction to CMP,400,109,Departmental
+FIC,FIC 469,Applied FIC,200,517,Universal
+ACC,ACC 241,Principles of ACC,100,28,Departmental
+FIC,FIC 249,Modern FIC,100,1034,Universal
+PHY,PHY 474,Modern PHY,100,98,Departmental
+MTH,MTH 307,Applied MTH,200,162,Departmental
+CMP,CMP 511,Applied CMP,500,94,Departmental
+MTH,MTH 191,Fundamentals of MTH,300,35,Departmental
+ACC,ACC 362,Principles of ACC,100,171,Departmental
+POL,POL 470,Principles of POL,200,127,Departmental
+FIC,FIC 237,Principles of FIC,500,669,Universal
+FIC,FIC 511,Advanced FIC,200,524,Universal
+ENG,ENG 531,Fundamentals of ENG,300,172,Departmental
+ECN,ECN 374,Fundamentals of ECN,100,63,Departmental
+CMP,CMP 211,Applied CMP,400,70,Departmental
+POL,POL 384,Applied POL,200,43,Departmental
+ACC,ACC 571,Principles of ACC,100,69,Departmental
+ECN,ECN 254,Advanced ECN,200,133,Departmental
+MCB,MCB 315,Applied MCB,100,28,Departmental
+BUS,BUS 328,Introduction to BUS,400,112,Departmental
+PHY,PHY 495,Modern PHY,500,22,Departmental
+FIC,FIC 557,Fundamentals of FIC,300,797,Universal
+BCH,BCH 425,Modern BCH,100,111,Departmental
+POL,POL 366,Applied POL,200,57,Departmental
+PHY,PHY 461,Principles of PHY,400,72,Departmental
+MCB,MCB 541,Fundamentals of MCB,500,133,Departmental
+GST,GST 177,Fundamentals of GST,400,686,Universal
+CMP,CMP 574,Principles of CMP,100,31,Departmental
+ACC,ACC 472,Introduction to ACC,200,165,Departmental
+FIC,FIC 142,Modern FIC,400,1148,Universal
+FIC,FIC 475,Introduction to FIC,200,1037,Universal
+CMP,CMP 171,Modern CMP,500,87,Departmental
+ACC,ACC 220,Introduction to ACC,300,85,Departmental
+MCB,MCB 524,Applied MCB,500,57,Departmental
+LAW,LAW 578,Applied LAW,200,116,Departmental
+LAW,LAW 110,Introduction to LAW,100,31,Departmental
+MTH,MTH 267,Introduction to MTH,200,61,Departmental
+CMP,CMP 328,Advanced CMP,400,120,Departmental
+FIC,FIC 520,Applied FIC,200,859,Universal
+BCH,BCH 345,Fundamentals of BCH,100,104,Departmental
+ENG,ENG 589,Advanced ENG,300,166,Departmental
+FIC,FIC 516,Advanced FIC,300,637,Universal
+CMP,CMP 486,Fundamentals of CMP,300,57,Departmental
+PHY,PHY 207,Modern PHY,400,148,Departmental
+ENG,ENG 164,Applied ENG,500,172,Departmental
+FIC,FIC 326,Applied FIC,200,1034,Universal
+PHY,PHY 543,Advanced PHY,500,91,Departmental
+ACC,ACC 474,Modern ACC,500,44,Departmental
+CMP,CMP 366,Principles of CMP,300,107,Departmental
+ENG,ENG 462,Modern ENG,400,130,Departmental
+LAW,LAW 233,Principles of LAW,300,180,Departmental
+ECN,ECN 494,Principles of ECN,400,166,Departmental
+MTH,MTH 484,Fundamentals of MTH,100,155,Departmental
+PSY,PSY 198,Introduction to PSY,100,136,Departmental
+ACC,ACC 120,Fundamentals of ACC,300,36,Departmental
+GST,GST 519,Applied GST,500,907,Universal
+LAW,LAW 121,Modern LAW,500,169,Departmental
+BUS,BUS 552,Fundamentals of BUS,200,122,Departmental
+GST,GST 433,Advanced GST,100,861,Universal
+BUS,BUS 430,Advanced BUS,400,51,Departmental
+MCB,MCB 484,Modern MCB,200,66,Departmental
+POL,POL 456,Introduction to POL,500,87,Departmental
+BUS,BUS 282,Introduction to BUS,500,137,Departmental
+GST,GST 375,Introduction to GST,500,686,Universal
+ECN,ECN 173,Introduction to ECN,300,90,Departmental
+POL,POL 534,Fundamentals of POL,200,80,Departmental
+LAW,LAW 195,Applied LAW,100,128,Departmental
+GST,GST 445,Modern GST,100,795,Universal
+ENG,ENG 476,Principles of ENG,200,130,Departmental
+FIC,FIC 348,Principles of FIC,200,698,Universal
+ENG,ENG 184,Principles of ENG,100,32,Departmental
+MTH,MTH 149,Modern MTH,300,148,Departmental
+ECN,ECN 287,Applied ECN,400,77,Departmental
+MTH,MTH 402,Introduction to MTH,100,190,Departmental
+ACC,ACC 531,Modern ACC,300,36,Departmental
+PHY,PHY 261,Advanced PHY,200,176,Departmental
+FIC,FIC 244,Modern FIC,400,1007,Universal
+MCB,MCB 563,Advanced MCB,400,107,Departmental
+MTH,MTH 545,Principles of MTH,100,44,Departmental
+PSY,PSY 388,Advanced PSY,500,90,Departmental
+BCH,BCH 257,Introduction to BCH,300,66,Departmental
+ECN,ECN 138,Modern ECN,200,53,Departmental
+MCB,MCB 492,Introduction to MCB,400,160,Departmental
+PSY,PSY 213,Principles of PSY,200,195,Departmental
+CMP,CMP 183,Advanced CMP,100,179,Departmental
+MTH,MTH 165,Applied MTH,300,150,Departmental
+MCB,MCB 426,Modern MCB,100,115,Departmental
+PSY,PSY 142,Advanced PSY,500,157,Departmental
+ENG,ENG 144,Introduction to ENG,500,121,Departmental
+CMP,CMP 270,Principles of CMP,400,118,Departmental
+PHY,PHY 240,Applied PHY,400,86,Departmental
+BCH,BCH 571,Advanced BCH,100,126,Departmental
+ACC,ACC 174,Fundamentals of ACC,200,183,Departmental
+FIC,FIC 280,Applied FIC,300,858,Universal
+ECN,ECN 103,Fundamentals of ECN,300,128,Departmental
+FIC,FIC 411,Advanced FIC,400,596,Universal
+MTH,MTH 258,Principles of MTH,200,111,Departmental
+CMP,CMP 248,Introduction to CMP,100,42,Departmental
+CMP,CMP 445,Fundamentals of CMP,100,194,Departmental
+BUS,BUS 364,Introduction to BUS,300,72,Departmental
+GST,GST 330,Introduction to GST,300,957,Universal
+CMP,CMP 115,Applied CMP,200,120,Departmental
+FIC,FIC 197,Fundamentals of FIC,500,784,Universal
+BUS,BUS 450,Advanced BUS,400,74,Departmental
+PHY,PHY 234,Modern PHY,200,131,Departmental
+FIC,FIC 529,Introduction to FIC,400,1077,Universal
+MTH,MTH 578,Principles of MTH,300,135,Departmental
+ECN,ECN 453,Fundamentals of ECN,300,55,Departmental
+ECN,ECN 125,Applied ECN,200,32,Departmental
+ENG,ENG 596,Introduction to ENG,500,193,Departmental
+BCH,BCH 356,Fundamentals of BCH,500,121,Departmental
+ECN,ECN 249,Modern ECN,400,129,Departmental
+PSY,PSY 144,Applied PSY,100,41,Departmental
+ECN,ECN 157,Fundamentals of ECN,100,138,Departmental
+PSY,PSY 230,Principles of PSY,100,57,Departmental
+GST,GST 295,Principles of GST,300,992,Universal
+MCB,MCB 546,Applied MCB,300,115,Departmental
+ECN,ECN 573,Introduction to ECN,400,100,Departmental
+PHY,PHY 546,Applied PHY,100,90,Departmental
+POL,POL 522,Introduction to POL,200,69,Departmental
+PSY,PSY 445,Applied PSY,400,145,Departmental
+FIC,FIC 498,Introduction to FIC,100,734,Universal
+LAW,LAW 122,Applied LAW,400,144,Departmental
+ENG,ENG 400,Modern ENG,200,83,Departmental
+MCB,MCB 323,Applied MCB,100,199,Departmental
+MCB,MCB 253,Fundamentals of MCB,200,199,Departmental
+GST,GST 356,Introduction to GST,500,1162,Universal
+MTH,MTH 501,Introduction to MTH,400,83,Departmental
+PHY,PHY 248,Applied PHY,200,177,Departmental
+CMP,CMP 403,Introduction to CMP,500,53,Departmental
+LAW,LAW 303,Introduction to LAW,500,175,Departmental
+LAW,LAW 155,Modern LAW,400,158,Departmental
+MCB,MCB 449,Introduction to MCB,100,36,Departmental
+CMP,CMP 376,Modern CMP,300,83,Departmental
+BCH,BCH 168,Applied BCH,300,96,Departmental
+PSY,PSY 291,Modern PSY,300,128,Departmental
+POL,POL 495,Fundamentals of POL,300,155,Departmental
+LAW,LAW 538,Modern LAW,500,42,Departmental
+PSY,PSY 295,Principles of PSY,300,67,Departmental
+FIC,FIC 239,Fundamentals of FIC,200,1000,Universal
+LAW,LAW 508,Modern LAW,500,171,Departmental
+GST,GST 551,Fundamentals of GST,300,797,Universal
+POL,POL 240,Applied POL,300,41,Departmental
+PSY,PSY 269,Fundamentals of PSY,100,147,Departmental
+BUS,BUS 278,Introduction to BUS,100,139,Departmental
+LAW,LAW 301,Advanced LAW,500,53,Departmental
+BCH,BCH 359,Principles of BCH,500,96,Departmental
+LAW,LAW 409,Fundamentals of LAW,200,68,Departmental
+PHY,PHY 349,Advanced PHY,300,96,Departmental
+ECN,ECN 517,Modern ECN,100,105,Departmental
+BCH,BCH 319,Introduction to BCH,400,130,Departmental
+ENG,ENG 357,Principles of ENG,500,41,Departmental
+ECN,ECN 421,Modern ECN,400,136,Departmental
+ENG,ENG 217,Introduction to ENG,200,142,Departmental
+BUS,BUS 244,Advanced BUS,500,61,Departmental
+PHY,PHY 581,Modern PHY,500,56,Departmental
+MCB,MCB 178,Modern MCB,300,183,Departmental
+ACC,ACC 345,Fundamentals of ACC,300,146,Departmental
+PHY,PHY 340,Fundamentals of PHY,200,127,Departmental
+MCB,MCB 125,Advanced MCB,500,26,Departmental
+LAW,LAW 384,Introduction to LAW,400,72,Departmental
+GST,GST 338,Modern GST,500,609,Universal
+FIC,FIC 374,Fundamentals of FIC,100,865,Universal
+CMP,CMP 273,Applied CMP,500,60,Departmental
+BUS,BUS 439,Advanced BUS,500,149,Departmental
+ENG,ENG 354,Applied ENG,400,183,Departmental
+BUS,BUS 482,Fundamentals of BUS,400,70,Departmental
+PSY,PSY 320,Advanced PSY,300,50,Departmental
+GST,GST 390,Modern GST,400,984,Universal
+LAW,LAW 434,Fundamentals of LAW,300,144,Departmental
+GST,GST 347,Applied GST,300,982,Universal
+PHY,PHY 470,Principles of PHY,400,107,Departmental
+ECN,ECN 429,Introduction to ECN,400,174,Departmental
+PSY,PSY 300,Applied PSY,500,39,Departmental
+ENG,ENG 557,Fundamentals of ENG,500,49,Departmental
+POL,POL 243,Introduction to POL,400,178,Departmental
+LAW,LAW 437,Applied LAW,200,85,Departmental
+POL,POL 344,Introduction to POL,500,76,Departmental
+LAW,LAW 257,Principles of LAW,400,67,Departmental
+MTH,MTH 476,Fundamentals of MTH,500,125,Departmental
+CMP,CMP 323,Fundamentals of CMP,400,93,Departmental
+MTH,MTH 394,Applied MTH,400,86,Departmental
+POL,POL 211,Principles of POL,400,131,Departmental
+MTH,MTH 166,Advanced MTH,100,139,Departmental
+FIC,FIC 508,Modern FIC,400,765,Universal
+BUS,BUS 322,Advanced BUS,500,32,Departmental
+PHY,PHY 192,Fundamentals of PHY,100,165,Departmental
+FIC,FIC 376,Fundamentals of FIC,100,848,Universal
+LAW,LAW 287,Advanced LAW,200,62,Departmental
+PSY,PSY 421,Applied PSY,400,138,Departmental
+MTH,MTH 301,Fundamentals of MTH,400,65,Departmental
+ENG,ENG 365,Advanced ENG,500,143,Departmental
+PHY,PHY 260,Introduction to PHY,400,34,Departmental
+POL,POL 120,Modern POL,300,52,Departmental
+ENG,ENG 137,Introduction to ENG,500,32,Departmental
+MTH,MTH 276,Principles of MTH,100,100,Departmental
+LAW,LAW 459,Fundamentals of LAW,100,34,Departmental
+FIC,FIC 403,Modern FIC,500,732,Universal
+PHY,PHY 516,Applied PHY,500,69,Departmental
+LAW,LAW 283,Principles of LAW,500,57,Departmental
+BCH,BCH 216,Fundamentals of BCH,500,88,Departmental
+ECN,ECN 571,Modern ECN,400,78,Departmental
+BUS,BUS 112,Advanced BUS,300,199,Departmental
+GST,GST 271,Introduction to GST,400,627,Universal
+BUS,BUS 264,Introduction to BUS,200,24,Departmental
+MCB,MCB 340,Introduction to MCB,200,110,Departmental
+GST,GST 448,Introduction to GST,500,589,Universal
+MTH,MTH 176,Introduction to MTH,400,87,Departmental
+MTH,MTH 154,Advanced MTH,400,48,Departmental
+ECN,ECN 306,Introduction to ECN,500,64,Departmental
+CMP,CMP 589,Modern CMP,300,130,Departmental
+LAW,LAW 124,Modern LAW,200,166,Departmental
+MCB,MCB 386,Principles of MCB,400,90,Departmental
+ECN,ECN 289,Modern ECN,500,155,Departmental
+PSY,PSY 469,Principles of PSY,500,64,Departmental
+PSY,PSY 327,Advanced PSY,300,113,Departmental
+ECN,ECN 544,Modern ECN,500,181,Departmental
+ACC,ACC 429,Advanced ACC,200,99,Departmental
+ENG,ENG 248,Modern ENG,500,72,Departmental
+CMP,CMP 419,Applied CMP,300,128,Departmental
+POL,POL 202,Principles of POL,400,114,Departmental
+BCH,BCH 183,Principles of BCH,300,120,Departmental
+MCB,MCB 225,Principles of MCB,200,79,Departmental
+BUS,BUS 525,Principles of BUS,300,154,Departmental
+MTH,MTH 199,Principles of MTH,100,196,Departmental
+BCH,BCH 486,Fundamentals of BCH,500,169,Departmental
+LAW,LAW 146,Advanced LAW,200,104,Departmental
+BCH,BCH 223,Principles of BCH,400,126,Departmental
+ACC,ACC 161,Advanced ACC,100,55,Departmental
+PHY,PHY 133,Principles of PHY,300,60,Departmental
+PSY,PSY 474,Introduction to PSY,200,59,Departmental
+PHY,PHY 329,Fundamentals of PHY,200,84,Departmental
+PHY,PHY 178,Advanced PHY,400,53,Departmental
+MCB,MCB 307,Applied MCB,500,83,Departmental
+ACC,ACC 420,Modern ACC,400,144,Departmental
+PSY,PSY 199,Fundamentals of PSY,200,39,Departmental
+ACC,ACC 261,Introduction to ACC,500,26,Departmental
+ENG,ENG 110,Principles of ENG,300,63,Departmental
+ENG,ENG 115,Modern ENG,200,134,Departmental
+PSY,PSY 266,Applied PSY,300,158,Departmental
+FIC,FIC 519,Principles of FIC,400,1080,Universal
+ACC,ACC 591,Advanced ACC,400,70,Departmental
+PHY,PHY 565,Principles of PHY,400,75,Departmental
+BUS,BUS 519,Advanced BUS,300,71,Departmental
+BCH,BCH 534,Applied BCH,200,94,Departmental
+CMP,CMP 202,Advanced CMP,400,198,Departmental
+PHY,PHY 537,Introduction to PHY,300,153,Departmental
+ECN,ECN 143,Modern ECN,500,71,Departmental
+ACC,ACC 492,Advanced ACC,100,33,Departmental
+ENG,ENG 196,Applied ENG,500,144,Departmental
+CMP,CMP 510,Principles of CMP,400,188,Departmental
+BUS,BUS 401,Advanced BUS,500,71,Departmental
+MCB,MCB 534,Introduction to MCB,100,119,Departmental
+LAW,LAW 554,Principles of LAW,300,140,Departmental
+POL,POL 480,Fundamentals of POL,200,74,Departmental
+POL,POL 132,Principles of POL,400,22,Departmental
+CMP,CMP 142,Applied CMP,500,23,Departmental
+ENG,ENG 314,Modern ENG,100,111,Departmental
+ENG,ENG 225,Applied ENG,300,164,Departmental
+MTH,MTH 146,Applied MTH,400,158,Departmental
+POL,POL 118,Modern POL,300,75,Departmental
+PHY,PHY 417,Principles of PHY,200,34,Departmental
+FIC,FIC 153,Advanced FIC,500,754,Universal
+BUS,BUS 514,Applied BUS,100,54,Departmental
+PSY,PSY 389,Modern PSY,200,88,Departmental
+PHY,PHY 229,Introduction to PHY,500,186,Departmental
+MCB,MCB 188,Fundamentals of MCB,100,156,Departmental
+BUS,BUS 248,Principles of BUS,500,55,Departmental
+ECN,ECN 312,Principles of ECN,100,185,Departmental
+ENG,ENG 430,Principles of ENG,500,89,Departmental
+MCB,MCB 488,Principles of MCB,300,192,Departmental
+MTH,MTH 574,Introduction to MTH,500,24,Departmental
+POL,POL 514,Introduction to POL,200,188,Departmental
+LAW,LAW 284,Advanced LAW,500,114,Departmental
+LAW,LAW 270,Advanced LAW,200,168,Departmental
+MCB,MCB 414,Principles of MCB,200,70,Departmental
+LAW,LAW 238,Introduction to LAW,200,57,Departmental
+POL,POL 136,Applied POL,500,101,Departmental
+MTH,MTH 440,Modern MTH,400,182,Departmental
+BUS,BUS 427,Fundamentals of BUS,200,200,Departmental
+ECN,ECN 147,Fundamentals of ECN,500,43,Departmental
+BCH,BCH 585,Advanced BCH,100,189,Departmental
+PSY,PSY 550,Advanced PSY,300,67,Departmental
+LAW,LAW 225,Modern LAW,300,174,Departmental
+PHY,PHY 139,Introduction to PHY,500,82,Departmental
+CMP,CMP 372,Applied CMP,400,187,Departmental
+BUS,BUS 118,Advanced BUS,200,180,Departmental
+ACC,ACC 438,Fundamentals of ACC,500,34,Departmental
+ACC,ACC 500,Introduction to ACC,300,74,Departmental
+MCB,MCB 209,Advanced MCB,500,80,Departmental
+GST,GST 370,Modern GST,100,714,Universal
+PHY,PHY 392,Fundamentals of PHY,400,35,Departmental
+PHY,PHY 269,Modern PHY,100,156,Departmental
+CMP,CMP 353,Introduction to CMP,200,196,Departmental
+CMP,CMP 519,Principles of CMP,200,111,Departmental
+ACC,ACC 150,Advanced ACC,400,180,Departmental
+PHY,PHY 232,Advanced PHY,400,61,Departmental
+ENG,ENG 160,Modern ENG,100,59,Departmental
+CMP,CMP 483,Modern CMP,500,184,Departmental
+ENG,ENG 458,Modern ENG,500,116,Departmental
+GST,GST 166,Applied GST,200,623,Universal
+BCH,BCH 407,Principles of BCH,500,151,Departmental
+PHY,PHY 189,Modern PHY,500,92,Departmental
+PSY,PSY 256,Introduction to PSY,100,50,Departmental
+PSY,PSY 222,Principles of PSY,300,86,Departmental
+ACC,ACC 281,Fundamentals of ACC,100,80,Departmental
+POL,POL 452,Introduction to POL,200,95,Departmental
+ECN,ECN 334,Advanced ECN,100,178,Departmental
+PHY,PHY 401,Modern PHY,500,118,Departmental
+PSY,PSY 139,Advanced PSY,100,171,Departmental
+POL,POL 141,Modern POL,400,160,Departmental
+POL,POL 245,Principles of POL,400,25,Departmental
+FIC,FIC 589,Applied FIC,500,569,Universal
+FIC,FIC 264,Advanced FIC,400,1102,Universal
+BCH,BCH 497,Fundamentals of BCH,500,80,Departmental
+LAW,LAW 567,Advanced LAW,500,128,Departmental
+BUS,BUS 359,Applied BUS,200,158,Departmental
+ECN,ECN 388,Modern ECN,500,91,Departmental
+MTH,MTH 451,Applied MTH,500,145,Departmental
+ACC,ACC 437,Principles of ACC,300,119,Departmental
+MTH,MTH 334,Fundamentals of MTH,100,127,Departmental
+FIC,FIC 124,Fundamentals of FIC,500,567,Universal
+PHY,PHY 182,Applied PHY,100,119,Departmental
+ECN,ECN 587,Principles of ECN,100,50,Departmental
+MCB,MCB 567,Principles of MCB,400,95,Departmental
+LAW,LAW 468,Introduction to LAW,100,103,Departmental
+MTH,MTH 526,Principles of MTH,300,60,Departmental
+FIC,FIC 226,Principles of FIC,100,781,Universal
+ENG,ENG 564,Applied ENG,400,21,Departmental
+POL,POL 554,Modern POL,200,182,Departmental
+FIC,FIC 141,Fundamentals of FIC,200,1106,Universal
+POL,POL 368,Introduction to POL,400,186,Departmental
+FIC,FIC 561,Modern FIC,500,503,Universal
+FIC,FIC 221,Fundamentals of FIC,300,724,Universal
+PHY,PHY 464,Introduction to PHY,200,75,Departmental
+GST,GST 108,Modern GST,500,1043,Universal
+ACC,ACC 181,Applied ACC,100,181,Departmental
+GST,GST 556,Advanced GST,100,1150,Universal
+MCB,MCB 279,Fundamentals of MCB,100,119,Departmental
+BCH,BCH 370,Modern BCH,200,87,Departmental
+ACC,ACC 451,Principles of ACC,200,49,Departmental
+ACC,ACC 183,Applied ACC,100,35,Departmental
+MCB,MCB 141,Applied MCB,400,57,Departmental
+MCB,MCB 593,Introduction to MCB,300,68,Departmental
+CMP,CMP 254,Fundamentals of CMP,400,161,Departmental
+ECN,ECN 333,Introduction to ECN,200,165,Departmental
+ENG,ENG 216,Principles of ENG,500,52,Departmental
+LAW,LAW 219,Principles of LAW,200,81,Departmental
+BUS,BUS 320,Principles of BUS,400,93,Departmental
+ECN,ECN 317,Fundamentals of ECN,400,115,Departmental
+BUS,BUS 501,Principles of BUS,400,159,Departmental
+ACC,ACC 222,Advanced ACC,500,62,Departmental
+GST,GST 345,Fundamentals of GST,200,1158,Universal
+MCB,MCB 587,Advanced MCB,400,123,Departmental
+BCH,BCH 228,Introduction to BCH,300,169,Departmental
+ENG,ENG 309,Fundamentals of ENG,300,170,Departmental
+FIC,FIC 263,Principles of FIC,300,1131,Universal
+MTH,MTH 177,Applied MTH,200,200,Departmental
+BCH,BCH 153,Principles of BCH,500,66,Departmental
+CMP,CMP 227,Fundamentals of CMP,300,148,Departmental
+POL,POL 428,Advanced POL,400,89,Departmental
+ACC,ACC 509,Principles of ACC,100,47,Departmental
+PHY,PHY 377,Applied PHY,200,122,Departmental
+CMP,CMP 187,Advanced CMP,400,187,Departmental
+CMP,CMP 411,Introduction to CMP,100,92,Departmental
+ECN,ECN 502,Modern ECN,300,164,Departmental
+ENG,ENG 590,Fundamentals of ENG,400,79,Departmental
+CMP,CMP 401,Fundamentals of CMP,200,146,Departmental
+FIC,FIC 112,Introduction to FIC,300,562,Universal
+MCB,MCB 565,Principles of MCB,100,28,Departmental
+BCH,BCH 331,Introduction to BCH,500,56,Departmental
+CMP,CMP 577,Applied CMP,100,101,Departmental
+CMP,CMP 512,Modern CMP,300,193,Departmental
+BUS,BUS 259,Introduction to BUS,500,74,Departmental
+BUS,BUS 283,Introduction to BUS,200,104,Departmental
+POL,POL 406,Principles of POL,100,176,Departmental
+POL,POL 365,Fundamentals of POL,300,94,Departmental
+ENG,ENG 452,Fundamentals of ENG,500,36,Departmental
+ENG,ENG 348,Introduction to ENG,500,65,Departmental
+BCH,BCH 222,Advanced BCH,100,89,Departmental
+BCH,BCH 159,Applied BCH,100,67,Departmental
+MCB,MCB 582,Principles of MCB,500,177,Departmental
+MTH,MTH 257,Applied MTH,200,137,Departmental
+ENG,ENG 104,Modern ENG,100,37,Departmental
+BCH,BCH 150,Principles of BCH,100,83,Departmental
+MCB,MCB 444,Fundamentals of MCB,100,66,Departmental
+ECN,ECN 340,Principles of ECN,500,78,Departmental
+PHY,PHY 454,Applied PHY,300,40,Departmental
+LAW,LAW 353,Principles of LAW,400,116,Departmental
+ECN,ECN 285,Fundamentals of ECN,100,173,Departmental
+FIC,FIC 108,Introduction to FIC,100,865,Universal
+ENG,ENG 537,Modern ENG,300,143,Departmental
+PSY,PSY 302,Modern PSY,300,124,Departmental
+ENG,ENG 435,Principles of ENG,200,101,Departmental
+PSY,PSY 394,Advanced PSY,500,66,Departmental
+FIC,FIC 302,Modern FIC,300,1173,Universal
+MTH,MTH 214,Modern MTH,500,37,Departmental
+ECN,ECN 422,Principles of ECN,500,159,Departmental
+GST,GST 325,Fundamentals of GST,100,1092,Universal
+PSY,PSY 161,Advanced PSY,300,185,Departmental
+FIC,FIC 276,Applied FIC,500,755,Universal
+FIC,FIC 181,Principles of FIC,100,1115,Universal
+ENG,ENG 566,Advanced ENG,100,89,Departmental
+FIC,FIC 521,Fundamentals of FIC,400,1147,Universal
+ACC,ACC 395,Modern ACC,500,138,Departmental
+POL,POL 181,Modern POL,300,67,Departmental
+ECN,ECN 383,Modern ECN,500,196,Departmental
+ENG,ENG 222,Applied ENG,100,97,Departmental
+ECN,ECN 326,Principles of ECN,500,129,Departmental
+BCH,BCH 218,Principles of BCH,100,71,Departmental
+MCB,MCB 395,Applied MCB,500,156,Departmental
+GST,GST 276,Fundamentals of GST,300,1072,Universal
+LAW,LAW 473,Principles of LAW,500,153,Departmental
+BUS,BUS 590,Principles of BUS,200,64,Departmental
+MCB,MCB 163,Introduction to MCB,400,68,Departmental
+ENG,ENG 169,Advanced ENG,400,45,Departmental
+BUS,BUS 271,Fundamentals of BUS,100,93,Departmental
+POL,POL 484,Applied POL,300,95,Departmental
+PSY,PSY 303,Principles of PSY,400,141,Departmental
+ENG,ENG 554,Fundamentals of ENG,200,127,Departmental
+POL,POL 502,Fundamentals of POL,300,139,Departmental
+ENG,ENG 499,Advanced ENG,200,96,Departmental
+PSY,PSY 304,Modern PSY,100,190,Departmental
+ECN,ECN 184,Fundamentals of ECN,500,124,Departmental
+ECN,ECN 337,Modern ECN,100,89,Departmental
+CMP,CMP 556,Advanced CMP,500,115,Departmental
+PSY,PSY 244,Modern PSY,100,35,Departmental
+GST,GST 113,Modern GST,500,750,Universal
+BUS,BUS 290,Introduction to BUS,400,175,Departmental
+MTH,MTH 580,Modern MTH,300,116,Departmental
+CMP,CMP 309,Fundamentals of CMP,300,33,Departmental
+FIC,FIC 328,Introduction to FIC,200,948,Universal
+GST,GST 272,Modern GST,100,1164,Universal
+LAW,LAW 337,Advanced LAW,200,70,Departmental
+PHY,PHY 263,Introduction to PHY,300,77,Departmental
+MCB,MCB 347,Applied MCB,400,112,Departmental
+FIC,FIC 323,Advanced FIC,500,683,Universal
+MCB,MCB 335,Principles of MCB,200,40,Departmental
+POL,POL 577,Introduction to POL,300,43,Departmental
+POL,POL 592,Advanced POL,200,33,Departmental
+BCH,BCH 405,Applied BCH,400,80,Departmental
+PHY,PHY 503,Applied PHY,300,186,Departmental
+POL,POL 435,Fundamentals of POL,300,147,Departmental
+FIC,FIC 473,Principles of FIC,400,656,Universal
+PSY,PSY 567,Principles of PSY,200,67,Departmental
+ECN,ECN 471,Introduction to ECN,100,166,Departmental
+CMP,CMP 521,Introduction to CMP,400,105,Departmental
+LAW,LAW 491,Fundamentals of LAW,300,109,Departmental
+PHY,PHY 264,Modern PHY,300,97,Departmental
+GST,GST 457,Advanced GST,300,572,Universal
+ACC,ACC 318,Introduction to ACC,300,124,Departmental
+BCH,BCH 482,Principles of BCH,300,87,Departmental
+POL,POL 262,Principles of POL,500,71,Departmental
+ENG,ENG 491,Fundamentals of ENG,200,150,Departmental
+MTH,MTH 555,Introduction to MTH,400,96,Departmental
+PSY,PSY 301,Fundamentals of PSY,300,158,Departmental
+BCH,BCH 520,Applied BCH,300,85,Departmental
+MTH,MTH 427,Fundamentals of MTH,300,120,Departmental
+GST,GST 454,Introduction to GST,300,864,Universal
+MTH,MTH 500,Modern MTH,300,31,Departmental
+ENG,ENG 230,Advanced ENG,400,129,Departmental
+FIC,FIC 391,Introduction to FIC,100,662,Universal
+ECN,ECN 124,Advanced ECN,300,25,Departmental
+MTH,MTH 288,Fundamentals of MTH,300,102,Departmental
+POL,POL 530,Modern POL,100,57,Departmental
+CMP,CMP 120,Modern CMP,100,45,Departmental
+POL,POL 103,Principles of POL,200,118,Departmental
+GST,GST 397,Fundamentals of GST,500,700,Universal
+PHY,PHY 112,Principles of PHY,200,105,Departmental
+BUS,BUS 304,Modern BUS,300,35,Departmental
+FIC,FIC 339,Applied FIC,500,1176,Universal
+ACC,ACC 577,Applied ACC,100,103,Departmental
+GST,GST 233,Introduction to GST,300,579,Universal
+POL,POL 557,Principles of POL,500,61,Departmental
+FIC,FIC 433,Advanced FIC,400,672,Universal
+BUS,BUS 535,Applied BUS,200,103,Departmental
+BUS,BUS 171,Fundamentals of BUS,100,93,Departmental
+LAW,LAW 502,Applied LAW,500,33,Departmental
+PHY,PHY 555,Modern PHY,200,88,Departmental
+BUS,BUS 307,Advanced BUS,300,69,Departmental
+BCH,BCH 531,Modern BCH,500,36,Departmental
+PHY,PHY 274,Advanced PHY,100,42,Departmental
+CMP,CMP 568,Principles of CMP,500,166,Departmental
+CMP,CMP 541,Principles of CMP,100,77,Departmental
+BUS,BUS 170,Fundamentals of BUS,100,122,Departmental
+BUS,BUS 459,Modern BUS,500,193,Departmental
+ECN,ECN 101,Introduction to ECN,300,90,Departmental
+BCH,BCH 380,Fundamentals of BCH,200,72,Departmental
+MCB,MCB 194,Applied MCB,200,53,Departmental
+PHY,PHY 448,Fundamentals of PHY,200,140,Departmental
+PSY,PSY 357,Introduction to PSY,200,133,Departmental
+BUS,BUS 127,Introduction to BUS,300,172,Departmental
+PSY,PSY 428,Introduction to PSY,400,86,Departmental
+FIC,FIC 385,Advanced FIC,200,960,Universal
+BCH,BCH 387,Introduction to BCH,300,68,Departmental
+POL,POL 542,Introduction to POL,100,195,Departmental
+BCH,BCH 174,Principles of BCH,400,76,Departmental
+BCH,BCH 103,Advanced BCH,400,145,Departmental
+ACC,ACC 469,Advanced ACC,100,135,Departmental
+BCH,BCH 115,Principles of BCH,500,181,Departmental
+GST,GST 576,Applied GST,300,1101,Universal
+ENG,ENG 205,Introduction to ENG,200,49,Departmental
+ACC,ACC 280,Fundamentals of ACC,300,194,Departmental
+ACC,ACC 130,Applied ACC,500,109,Departmental
+POL,POL 431,Advanced POL,500,163,Departmental
+ACC,ACC 252,Advanced ACC,400,116,Departmental
+ENG,ENG 292,Principles of ENG,500,133,Departmental
+BCH,BCH 454,Applied BCH,400,171,Departmental
+ENG,ENG 313,Principles of ENG,100,130,Departmental
+PHY,PHY 276,Fundamentals of PHY,200,22,Departmental
+PHY,PHY 323,Introduction to PHY,100,150,Departmental
+FIC,FIC 194,Advanced FIC,300,874,Universal
+ECN,ECN 406,Fundamentals of ECN,100,119,Departmental
+PHY,PHY 205,Principles of PHY,500,178,Departmental
+PSY,PSY 125,Modern PSY,200,193,Departmental
+MTH,MTH 390,Principles of MTH,200,157,Departmental
+CMP,CMP 494,Principles of CMP,500,70,Departmental
+BUS,BUS 288,Applied BUS,400,34,Departmental
+MCB,MCB 266,Applied MCB,100,110,Departmental
+BCH,BCH 179,Introduction to BCH,200,97,Departmental
+BUS,BUS 247,Principles of BUS,500,99,Departmental
+POL,POL 184,Fundamentals of POL,200,170,Departmental
+GST,GST 236,Fundamentals of GST,100,646,Universal
+MCB,MCB 272,Introduction to MCB,200,154,Departmental
+MTH,MTH 102,Fundamentals of MTH,400,119,Departmental
+FIC,FIC 437,Applied FIC,100,594,Universal
+MTH,MTH 279,Fundamentals of MTH,400,110,Departmental
+ACC,ACC 479,Introduction to ACC,100,44,Departmental
+FIC,FIC 426,Principles of FIC,400,1129,Universal
+GST,GST 392,Modern GST,500,645,Universal
+BCH,BCH 349,Advanced BCH,500,49,Departmental
+BUS,BUS 383,Applied BUS,500,42,Departmental
+ACC,ACC 415,Modern ACC,500,68,Departmental
+ACC,ACC 310,Modern ACC,100,27,Departmental
+CMP,CMP 342,Advanced CMP,300,145,Departmental
+ACC,ACC 147,Applied ACC,400,169,Departmental
+ENG,ENG 550,Applied ENG,100,85,Departmental
+PSY,PSY 391,Modern PSY,200,95,Departmental
+BCH,BCH 278,Advanced BCH,200,194,Departmental
+PHY,PHY 372,Introduction to PHY,100,173,Departmental
+LAW,LAW 204,Introduction to LAW,100,182,Departmental
+CMP,CMP 136,Principles of CMP,300,153,Departmental
+PSY,PSY 407,Advanced PSY,500,38,Departmental
+CMP,CMP 514,Applied CMP,400,120,Departmental
+MTH,MTH 380,Modern MTH,400,27,Departmental
+PSY,PSY 401,Introduction to PSY,500,165,Departmental
+ECN,ECN 308,Applied ECN,400,113,Departmental
+FIC,FIC 354,Applied FIC,200,844,Universal
+PHY,PHY 483,Introduction to PHY,400,74,Departmental
+PHY,PHY 294,Applied PHY,100,159,Departmental
+BUS,BUS 326,Introduction to BUS,300,100,Departmental
+CMP,CMP 481,Modern CMP,100,96,Departmental
+POL,POL 574,Introduction to POL,400,100,Departmental
+PHY,PHY 105,Introduction to PHY,100,92,Departmental
+MCB,MCB 287,Principles of MCB,400,71,Departmental
+PHY,PHY 522,Modern PHY,400,47,Departmental
+PHY,PHY 299,Advanced PHY,500,90,Departmental
+BCH,BCH 285,Modern BCH,100,80,Departmental
+ACC,ACC 253,Advanced ACC,400,73,Departmental
+ECN,ECN 458,Applied ECN,100,121,Departmental
+GST,GST 336,Applied GST,400,1004,Universal
+MCB,MCB 531,Applied MCB,200,143,Departmental
+FIC,FIC 224,Applied FIC,500,938,Universal
+ECN,ECN 295,Modern ECN,400,75,Departmental
+CMP,CMP 504,Introduction to CMP,500,108,Departmental
+BUS,BUS 589,Introduction to BUS,200,58,Departmental
+PSY,PSY 439,Principles of PSY,100,24,Departmental
+PHY,PHY 278,Advanced PHY,500,117,Departmental
+FIC,FIC 424,Principles of FIC,200,915,Universal
+MCB,MCB 506,Introduction to MCB,100,93,Departmental
+POL,POL 327,Applied POL,200,26,Departmental
+ENG,ENG 405,Advanced ENG,200,67,Departmental
+BUS,BUS 160,Principles of BUS,400,68,Departmental
+PSY,PSY 143,Fundamentals of PSY,300,25,Departmental
+ACC,ACC 297,Modern ACC,400,190,Departmental
+ACC,ACC 480,Introduction to ACC,400,158,Departmental
+FIC,FIC 571,Applied FIC,400,629,Universal
+PHY,PHY 303,Introduction to PHY,100,93,Departmental
+ENG,ENG 375,Advanced ENG,300,32,Departmental
+PSY,PSY 132,Modern PSY,200,169,Departmental
+BUS,BUS 226,Advanced BUS,100,113,Departmental
+LAW,LAW 368,Advanced LAW,100,175,Departmental
+CMP,CMP 443,Advanced CMP,500,157,Departmental
+CMP,CMP 547,Introduction to CMP,300,93,Departmental
+PHY,PHY 300,Applied PHY,400,107,Departmental
+MCB,MCB 107,Introduction to MCB,500,53,Departmental
+BCH,BCH 490,Introduction to BCH,100,158,Departmental
+ACC,ACC 131,Fundamentals of ACC,200,195,Departmental
+CMP,CMP 434,Introduction to CMP,300,67,Departmental
+BCH,BCH 435,Advanced BCH,300,71,Departmental
+BCH,BCH 296,Applied BCH,200,48,Departmental
+LAW,LAW 137,Fundamentals of LAW,300,141,Departmental
+LAW,LAW 522,Modern LAW,100,111,Departmental
+GST,GST 324,Modern GST,500,822,Universal
+ENG,ENG 398,Modern ENG,200,71,Departmental
+CMP,CMP 326,Introduction to CMP,400,34,Departmental
+MTH,MTH 197,Fundamentals of MTH,400,25,Departmental
+GST,GST 268,Introduction to GST,400,776,Universal
+CMP,CMP 542,Advanced CMP,200,194,Departmental
+BUS,BUS 263,Applied BUS,500,144,Departmental
+CMP,CMP 502,Introduction to CMP,200,164,Departmental
+BUS,BUS 138,Fundamentals of BUS,200,69,Departmental
+CMP,CMP 466,Principles of CMP,100,163,Departmental
+ACC,ACC 213,Introduction to ACC,400,27,Departmental
+GST,GST 493,Modern GST,300,1040,Universal
+PSY,PSY 194,Advanced PSY,500,157,Departmental
+ENG,ENG 127,Introduction to ENG,500,167,Departmental
+FIC,FIC 307,Introduction to FIC,300,504,Universal
+MTH,MTH 340,Introduction to MTH,300,181,Departmental
+GST,GST 409,Principles of GST,100,652,Universal
+ENG,ENG 525,Advanced ENG,100,47,Departmental
+BUS,BUS 475,Introduction to BUS,400,76,Departmental
+FIC,FIC 292,Principles of FIC,300,1104,Universal
+GST,GST 395,Modern GST,200,1056,Universal
+CMP,CMP 395,Applied CMP,300,165,Departmental
+CMP,CMP 299,Applied CMP,100,59,Departmental
+PSY,PSY 431,Advanced PSY,100,146,Departmental
+POL,POL 335,Principles of POL,500,59,Departmental
+ECN,ECN 597,Introduction to ECN,200,39,Departmental
+ACC,ACC 558,Applied ACC,500,151,Departmental
+ECN,ECN 303,Modern ECN,300,167,Departmental
+ACC,ACC 487,Modern ACC,300,76,Departmental
+CMP,CMP 585,Introduction to CMP,300,43,Departmental
+MTH,MTH 417,Advanced MTH,300,84,Departmental
+MTH,MTH 112,Principles of MTH,100,146,Departmental
+PSY,PSY 596,Modern PSY,200,103,Departmental
+ENG,ENG 235,Principles of ENG,500,113,Departmental
+BUS,BUS 526,Advanced BUS,100,88,Departmental
+GST,GST 316,Fundamentals of GST,500,759,Universal
+ACC,ACC 570,Fundamentals of ACC,100,171,Departmental
+GST,GST 386,Principles of GST,400,775,Universal
+CMP,CMP 435,Advanced CMP,500,23,Departmental
+MTH,MTH 432,Fundamentals of MTH,400,147,Departmental
+BUS,BUS 303,Principles of BUS,500,126,Departmental
+MTH,MTH 142,Applied MTH,400,34,Departmental
+POL,POL 139,Applied POL,100,58,Departmental
+GST,GST 456,Introduction to GST,400,962,Universal
+BCH,BCH 464,Introduction to BCH,100,152,Departmental
+POL,POL 597,Advanced POL,200,136,Departmental
+ACC,ACC 442,Fundamentals of ACC,100,193,Departmental
+BUS,BUS 406,Modern BUS,400,167,Departmental
+BCH,BCH 382,Applied BCH,500,35,Departmental
+GST,GST 472,Modern GST,500,723,Universal
+ACC,ACC 336,Fundamentals of ACC,100,79,Departmental
+LAW,LAW 230,Introduction to LAW,100,187,Departmental
+POL,POL 112,Modern POL,400,105,Departmental
+PHY,PHY 123,Advanced PHY,300,137,Departmental
+ECN,ECN 444,Fundamentals of ECN,200,155,Departmental
+LAW,LAW 208,Fundamentals of LAW,400,23,Departmental
+GST,GST 226,Introduction to GST,500,631,Universal
+GST,GST 567,Fundamentals of GST,200,770,Universal
+PHY,PHY 250,Introduction to PHY,100,129,Departmental
+BUS,BUS 158,Modern BUS,200,90,Departmental
+BCH,BCH 341,Advanced BCH,100,119,Departmental
+BCH,BCH 479,Introduction to BCH,500,103,Departmental
+ECN,ECN 393,Modern ECN,300,172,Departmental
+LAW,LAW 275,Principles of LAW,100,90,Departmental
+PSY,PSY 187,Principles of PSY,200,87,Departmental
+POL,POL 553,Fundamentals of POL,100,67,Departmental
+BCH,BCH 173,Introduction to BCH,100,145,Departmental
+POL,POL 257,Modern POL,500,141,Departmental
+GST,GST 185,Principles of GST,400,667,Universal
+MCB,MCB 189,Principles of MCB,100,195,Departmental
+BUS,BUS 386,Modern BUS,500,151,Departmental
+ENG,ENG 256,Advanced ENG,400,184,Departmental
+FIC,FIC 583,Advanced FIC,100,1139,Universal
+LAW,LAW 413,Principles of LAW,500,162,Departmental
+ECN,ECN 123,Fundamentals of ECN,200,28,Departmental
+ACC,ACC 582,Introduction to ACC,500,49,Departmental
+POL,POL 312,Fundamentals of POL,500,76,Departmental
+ECN,ECN 194,Modern ECN,500,128,Departmental
+CMP,CMP 143,Fundamentals of CMP,100,134,Departmental
+FIC,FIC 431,Advanced FIC,100,1031,Universal
+FIC,FIC 241,Principles of FIC,100,993,Universal
+POL,POL 412,Principles of POL,500,163,Departmental
+PHY,PHY 148,Applied PHY,400,131,Departmental
+ECN,ECN 402,Advanced ECN,200,195,Departmental
+POL,POL 479,Advanced POL,300,33,Departmental
+BUS,BUS 273,Applied BUS,400,85,Departmental
+ACC,ACC 273,Fundamentals of ACC,500,69,Departmental
+CMP,CMP 330,Introduction to CMP,500,117,Departmental
+ACC,ACC 119,Modern ACC,200,53,Departmental
+BUS,BUS 251,Modern BUS,100,75,Departmental
+PSY,PSY 254,Advanced PSY,400,81,Departmental
+PSY,PSY 127,Applied PSY,200,109,Departmental
+ECN,ECN 264,Fundamentals of ECN,100,134,Departmental
+CMP,CMP 263,Applied CMP,500,78,Departmental
+FIC,FIC 126,Principles of FIC,500,533,Universal
+BUS,BUS 403,Introduction to BUS,300,106,Departmental
+CMP,CMP 513,Fundamentals of CMP,400,103,Departmental
+FIC,FIC 340,Principles of FIC,200,957,Universal
+POL,POL 341,Advanced POL,300,133,Departmental
+LAW,LAW 319,Advanced LAW,400,21,Departmental
+POL,POL 558,Introduction to POL,100,155,Departmental
+BUS,BUS 397,Introduction to BUS,200,161,Departmental
+MCB,MCB 510,Applied MCB,400,122,Departmental
+ACC,ACC 493,Fundamentals of ACC,200,183,Departmental
+ECN,ECN 206,Fundamentals of ECN,500,110,Departmental
+CMP,CMP 391,Principles of CMP,500,36,Departmental
+ACC,ACC 548,Principles of ACC,400,44,Departmental
+ECN,ECN 574,Advanced ECN,300,90,Departmental
+PHY,PHY 492,Fundamentals of PHY,500,51,Departmental
+CMP,CMP 104,Applied CMP,300,101,Departmental
+ACC,ACC 584,Advanced ACC,300,167,Departmental
+BCH,BCH 551,Principles of BCH,100,84,Departmental
+PSY,PSY 208,Introduction to PSY,300,177,Departmental
+BUS,BUS 308,Fundamentals of BUS,500,184,Departmental
+PSY,PSY 237,Applied PSY,500,53,Departmental
+PHY,PHY 491,Fundamentals of PHY,500,123,Departmental
+BCH,BCH 310,Introduction to BCH,500,135,Departmental
+ECN,ECN 225,Introduction to ECN,500,134,Departmental
+ENG,ENG 223,Advanced ENG,200,157,Departmental
+MCB,MCB 280,Applied MCB,500,36,Departmental
+MCB,MCB 427,Introduction to MCB,100,69,Departmental
+LAW,LAW 194,Fundamentals of LAW,500,122,Departmental
+MCB,MCB 303,Modern MCB,200,130,Departmental
+BUS,BUS 132,Modern BUS,100,152,Departmental
+MTH,MTH 565,Principles of MTH,100,69,Departmental
+FIC,FIC 180,Modern FIC,400,1125,Universal
+MCB,MCB 566,Principles of MCB,100,168,Departmental
+POL,POL 486,Principles of POL,200,74,Departmental
+ECN,ECN 407,Fundamentals of ECN,100,195,Departmental
+FIC,FIC 242,Applied FIC,300,1049,Universal
+POL,POL 268,Applied POL,100,162,Departmental
+ACC,ACC 541,Advanced ACC,200,85,Departmental
+BCH,BCH 403,Applied BCH,500,193,Departmental
+FIC,FIC 574,Applied FIC,500,1010,Universal
+LAW,LAW 405,Applied LAW,100,73,Departmental
+GST,GST 558,Applied GST,200,1048,Universal
+GST,GST 378,Modern GST,500,598,Universal
+CMP,CMP 180,Principles of CMP,500,158,Departmental
+LAW,LAW 120,Modern LAW,400,194,Departmental
+LAW,LAW 351,Principles of LAW,100,135,Departmental
+BCH,BCH 298,Principles of BCH,300,172,Departmental
+ECN,ECN 279,Fundamentals of ECN,300,78,Departmental
+ACC,ACC 216,Advanced ACC,400,137,Departmental
+MTH,MTH 330,Principles of MTH,200,151,Departmental
+GST,GST 162,Principles of GST,300,1030,Universal
+BUS,BUS 402,Principles of BUS,200,172,Departmental
+CMP,CMP 216,Introduction to CMP,100,184,Departmental
+MCB,MCB 184,Advanced MCB,400,191,Departmental
+MCB,MCB 325,Applied MCB,400,142,Departmental
+LAW,LAW 170,Modern LAW,500,147,Departmental
+LAW,LAW 136,Applied LAW,300,133,Departmental
+BCH,BCH 106,Applied BCH,500,164,Departmental
+BCH,BCH 583,Principles of BCH,200,155,Departmental
+PHY,PHY 482,Advanced PHY,300,135,Departmental
+POL,POL 393,Applied POL,200,72,Departmental
+CMP,CMP 459,Principles of CMP,100,130,Departmental
+LAW,LAW 157,Applied LAW,100,122,Departmental
+ACC,ACC 557,Introduction to ACC,400,45,Departmental
+POL,POL 272,Modern POL,300,117,Departmental
+ECN,ECN 181,Fundamentals of ECN,400,49,Departmental
+ECN,ECN 553,Introduction to ECN,500,117,Departmental
+BUS,BUS 149,Fundamentals of BUS,100,104,Departmental
+LAW,LAW 278,Fundamentals of LAW,300,105,Departmental
+BCH,BCH 591,Fundamentals of BCH,400,55,Departmental
+GST,GST 168,Applied GST,200,1036,Universal
+BUS,BUS 533,Introduction to BUS,100,150,Departmental
+PHY,PHY 452,Introduction to PHY,400,155,Departmental
+PSY,PSY 202,Fundamentals of PSY,400,188,Departmental
+FIC,FIC 371,Applied FIC,300,730,Universal
+FIC,FIC 375,Advanced FIC,300,994,Universal
+ENG,ENG 577,Advanced ENG,500,119,Departmental
+ENG,ENG 311,Modern ENG,300,43,Departmental
+ENG,ENG 118,Applied ENG,200,129,Departmental
+MCB,MCB 528,Advanced MCB,400,114,Departmental
+ENG,ENG 261,Introduction to ENG,200,117,Departmental
+BCH,BCH 313,Principles of BCH,200,76,Departmental
+MTH,MTH 557,Applied MTH,500,154,Departmental
+PSY,PSY 386,Principles of PSY,400,138,Departmental
+ENG,ENG 154,Principles of ENG,500,116,Departmental
+CMP,CMP 341,Applied CMP,300,36,Departmental
+PSY,PSY 526,Modern PSY,200,59,Departmental
+BUS,BUS 211,Applied BUS,200,117,Departmental
+LAW,LAW 173,Principles of LAW,200,169,Departmental
+ENG,ENG 310,Modern ENG,500,145,Departmental
+PSY,PSY 283,Introduction to PSY,100,58,Departmental
+GST,GST 225,Advanced GST,500,931,Universal
+POL,POL 543,Advanced POL,100,96,Departmental
+ECN,ECN 258,Fundamentals of ECN,500,102,Departmental
+PHY,PHY 433,Principles of PHY,400,115,Departmental
+MTH,MTH 207,Principles of MTH,200,49,Departmental
+BUS,BUS 431,Introduction to BUS,400,173,Departmental
+BCH,BCH 578,Principles of BCH,400,126,Departmental
+ACC,ACC 554,Modern ACC,100,35,Departmental
+MTH,MTH 361,Advanced MTH,100,131,Departmental
+ECN,ECN 298,Modern ECN,200,108,Departmental
+PSY,PSY 442,Applied PSY,100,128,Departmental
+PHY,PHY 526,Modern PHY,200,128,Departmental
+MTH,MTH 147,Introduction to MTH,300,136,Departmental
+PHY,PHY 545,Applied PHY,200,50,Departmental
+BUS,BUS 195,Modern BUS,300,95,Departmental
+CMP,CMP 360,Introduction to CMP,100,112,Departmental
+MCB,MCB 319,Modern MCB,400,168,Departmental
+PHY,PHY 117,Applied PHY,300,199,Departmental
+BUS,BUS 365,Introduction to BUS,200,106,Departmental
+BUS,BUS 494,Applied BUS,300,33,Departmental
+MCB,MCB 466,Modern MCB,400,99,Departmental
+PHY,PHY 147,Applied PHY,200,62,Departmental
+PSY,PSY 105,Fundamentals of PSY,500,73,Departmental
+BCH,BCH 463,Modern BCH,500,71,Departmental
+ACC,ACC 332,Applied ACC,500,103,Departmental
+CMP,CMP 161,Advanced CMP,100,165,Departmental
+PSY,PSY 476,Modern PSY,100,41,Departmental
+CMP,CMP 103,Modern CMP,400,134,Departmental
+ACC,ACC 170,Principles of ACC,400,101,Departmental
+MCB,MCB 559,Modern MCB,400,109,Departmental
+FIC,FIC 121,Fundamentals of FIC,400,573,Universal
+MTH,MTH 514,Modern MTH,500,139,Departmental
+GST,GST 367,Modern GST,100,1084,Universal
+MTH,MTH 308,Fundamentals of MTH,400,140,Departmental
+BUS,BUS 368,Advanced BUS,400,34,Departmental
+ECN,ECN 199,Advanced ECN,500,55,Departmental
+PSY,PSY 458,Applied PSY,300,91,Departmental
+FIC,FIC 168,Principles of FIC,500,558,Universal
+LAW,LAW 262,Advanced LAW,300,171,Departmental
+ENG,ENG 274,Introduction to ENG,300,41,Departmental
+MTH,MTH 538,Principles of MTH,500,165,Departmental
+PSY,PSY 103,Fundamentals of PSY,500,53,Departmental
+LAW,LAW 404,Introduction to LAW,400,193,Departmental
+ECN,ECN 436,Fundamentals of ECN,400,52,Departmental
+FIC,FIC 200,Introduction to FIC,100,995,Universal
+BCH,BCH 543,Applied BCH,200,159,Departmental
+ECN,ECN 416,Applied ECN,400,82,Departmental
+ECN,ECN 139,Introduction to ECN,500,27,Departmental
+ENG,ENG 381,Modern ENG,200,135,Departmental
+GST,GST 252,Fundamentals of GST,100,638,Universal
+BUS,BUS 333,Advanced BUS,300,200,Departmental
+PSY,PSY 434,Applied PSY,300,97,Departmental
+CMP,CMP 298,Principles of CMP,100,193,Departmental
+ECN,ECN 405,Principles of ECN,100,173,Departmental
+LAW,LAW 317,Principles of LAW,400,93,Departmental
+POL,POL 135,Advanced POL,200,143,Departmental
+FIC,FIC 404,Modern FIC,200,631,Universal
+POL,POL 359,Modern POL,400,88,Departmental
+BUS,BUS 423,Applied BUS,100,171,Departmental
+FIC,FIC 202,Advanced FIC,500,1015,Universal
+ENG,ENG 408,Principles of ENG,100,183,Departmental
+BCH,BCH 114,Introduction to BCH,100,166,Departmental
+FIC,FIC 415,Principles of FIC,300,1131,Universal
+CMP,CMP 310,Advanced CMP,400,126,Departmental
+PSY,PSY 257,Advanced PSY,200,100,Departmental
+POL,POL 279,Principles of POL,200,39,Departmental
+POL,POL 585,Principles of POL,100,185,Departmental
+PHY,PHY 235,Principles of PHY,300,156,Departmental
+POL,POL 213,Fundamentals of POL,200,117,Departmental
+ENG,ENG 220,Modern ENG,200,62,Departmental
+ENG,ENG 330,Applied ENG,100,115,Departmental
+PHY,PHY 593,Principles of PHY,400,134,Departmental
+PSY,PSY 524,Advanced PSY,200,156,Departmental
+FIC,FIC 174,Principles of FIC,500,1028,Universal
+ENG,ENG 307,Principles of ENG,300,70,Departmental
+ACC,ACC 514,Introduction to ACC,500,163,Departmental
+MTH,MTH 369,Advanced MTH,400,114,Departmental
+MTH,MTH 341,Advanced MTH,100,46,Departmental
+POL,POL 182,Applied POL,300,147,Departmental
+ACC,ACC 410,Principles of ACC,100,95,Departmental
+ENG,ENG 574,Advanced ENG,200,52,Departmental
+GST,GST 148,Fundamentals of GST,300,870,Universal
+FIC,FIC 419,Fundamentals of FIC,400,1027,Universal
+PHY,PHY 520,Fundamentals of PHY,300,129,Departmental
+FIC,FIC 517,Applied FIC,300,967,Universal
+PHY,PHY 553,Introduction to PHY,500,169,Departmental
+POL,POL 281,Applied POL,300,159,Departmental
+PSY,PSY 568,Applied PSY,500,138,Departmental
+ENG,ENG 512,Introduction to ENG,300,71,Departmental
+BUS,BUS 471,Fundamentals of BUS,400,103,Departmental
+POL,POL 519,Modern POL,500,129,Departmental
+CMP,CMP 517,Introduction to CMP,400,123,Departmental
+GST,GST 536,Fundamentals of GST,200,806,Universal
+BUS,BUS 529,Modern BUS,200,63,Departmental
+ACC,ACC 146,Modern ACC,300,38,Departmental
+PHY,PHY 293,Advanced PHY,400,137,Departmental
+PHY,PHY 390,Fundamentals of PHY,300,174,Departmental
+MCB,MCB 321,Principles of MCB,500,45,Departmental
+PHY,PHY 385,Modern PHY,400,197,Departmental
+CMP,CMP 453,Advanced CMP,500,180,Departmental
+PHY,PHY 351,Advanced PHY,400,80,Departmental
+LAW,LAW 517,Applied LAW,100,56,Departmental
+ECN,ECN 385,Modern ECN,300,59,Departmental
+LAW,LAW 462,Modern LAW,200,101,Departmental
+POL,POL 386,Applied POL,500,103,Departmental
+ECN,ECN 144,Fundamentals of ECN,200,59,Departmental
+GST,GST 218,Applied GST,200,1002,Universal
+BUS,BUS 504,Modern BUS,200,121,Departmental
+LAW,LAW 561,Introduction to LAW,200,139,Departmental
+BCH,BCH 468,Introduction to BCH,400,57,Departmental
+FIC,FIC 399,Modern FIC,400,1136,Universal
+CMP,CMP 477,Introduction to CMP,100,26,Departmental
+MTH,MTH 583,Advanced MTH,500,63,Departmental
+BUS,BUS 372,Introduction to BUS,400,152,Departmental
+MTH,MTH 246,Introduction to MTH,100,198,Departmental
+LAW,LAW 398,Principles of LAW,300,28,Departmental
+MCB,MCB 203,Modern MCB,400,70,Departmental
+LAW,LAW 512,Introduction to LAW,400,175,Departmental
+CMP,CMP 169,Introduction to CMP,400,124,Departmental
+LAW,LAW 260,Principles of LAW,200,62,Departmental
+CMP,CMP 110,Modern CMP,400,36,Departmental
+PHY,PHY 322,Introduction to PHY,300,174,Departmental
+GST,GST 178,Modern GST,500,793,Universal
+GST,GST 135,Modern GST,500,766,Universal
+POL,POL 373,Introduction to POL,200,196,Departmental
+ECN,ECN 520,Introduction to ECN,400,101,Departmental
+BCH,BCH 214,Advanced BCH,200,158,Departmental
+LAW,LAW 126,Applied LAW,100,132,Departmental
+PSY,PSY 323,Principles of PSY,200,188,Departmental
+MTH,MTH 204,Advanced MTH,200,89,Departmental
+ACC,ACC 567,Principles of ACC,500,82,Departmental
+BCH,BCH 574,Applied BCH,500,124,Departmental
+MCB,MCB 119,Modern MCB,300,38,Departmental
+PHY,PHY 122,Applied PHY,100,154,Departmental
+FIC,FIC 160,Advanced FIC,100,735,Universal
+BCH,BCH 232,Principles of BCH,200,149,Departmental
+BCH,BCH 445,Introduction to BCH,200,121,Departmental
+CMP,CMP 167,Applied CMP,500,140,Departmental
+CMP,CMP 213,Advanced CMP,200,93,Departmental
+CMP,CMP 193,Introduction to CMP,500,120,Departmental
+ECN,ECN 545,Introduction to ECN,200,94,Departmental
+FIC,FIC 362,Applied FIC,500,950,Universal
+FIC,FIC 434,Fundamentals of FIC,100,847,Universal
+PSY,PSY 475,Modern PSY,100,25,Departmental
+BUS,BUS 236,Introduction to BUS,100,114,Departmental
+PHY,PHY 208,Principles of PHY,200,188,Departmental
+POL,POL 189,Applied POL,500,189,Departmental
+ACC,ACC 436,Fundamentals of ACC,400,51,Departmental
+LAW,LAW 529,Fundamentals of LAW,400,170,Departmental
+ACC,ACC 562,Applied ACC,200,155,Departmental
+PSY,PSY 177,Advanced PSY,500,86,Departmental
+ECN,ECN 117,Applied ECN,200,111,Departmental
+MTH,MTH 435,Fundamentals of MTH,400,35,Departmental
+POL,POL 258,Principles of POL,300,59,Departmental
+MCB,MCB 235,Introduction to MCB,200,55,Departmental
+POL,POL 140,Introduction to POL,300,173,Departmental
+FIC,FIC 157,Applied FIC,100,1156,Universal
+LAW,LAW 484,Applied LAW,100,174,Departmental
+MTH,MTH 410,Modern MTH,500,49,Departmental
+POL,POL 156,Applied POL,300,163,Departmental
+CMP,CMP 491,Applied CMP,100,130,Departmental
+POL,POL 582,Advanced POL,500,32,Departmental
+MTH,MTH 588,Introduction to MTH,300,98,Departmental
+PHY,PHY 575,Applied PHY,300,180,Departmental
+FIC,FIC 377,Applied FIC,300,664,Universal
+MCB,MCB 556,Advanced MCB,400,44,Departmental
+FIC,FIC 122,Advanced FIC,500,1070,Universal
+ENG,ENG 454,Advanced ENG,500,115,Departmental
+PSY,PSY 537,Modern PSY,200,172,Departmental
+BCH,BCH 550,Modern BCH,500,32,Departmental
+GST,GST 235,Introduction to GST,500,1072,Universal
+GST,GST 220,Applied GST,300,612,Universal
+MTH,MTH 556,Modern MTH,200,148,Departmental
+MCB,MCB 220,Advanced MCB,300,127,Departmental
+BUS,BUS 442,Principles of BUS,300,48,Departmental
+ECN,ECN 105,Principles of ECN,300,63,Departmental
+BCH,BCH 277,Applied BCH,100,146,Departmental
+BCH,BCH 533,Principles of BCH,200,84,Departmental
+MTH,MTH 455,Principles of MTH,500,51,Departmental
+MTH,MTH 304,Applied MTH,300,158,Departmental
+BUS,BUS 367,Fundamentals of BUS,500,85,Departmental
+GST,GST 204,Modern GST,200,945,Universal
+MCB,MCB 290,Principles of MCB,400,84,Departmental
+LAW,LAW 191,Modern LAW,200,61,Departmental
+ECN,ECN 314,Introduction to ECN,300,196,Departmental
+POL,POL 173,Introduction to POL,400,38,Departmental
+GST,GST 571,Principles of GST,100,1010,Universal
+LAW,LAW 109,Modern LAW,500,49,Departmental
+FIC,FIC 309,Fundamentals of FIC,100,504,Universal
+BCH,BCH 165,Applied BCH,400,70,Departmental
+MTH,MTH 495,Applied MTH,400,125,Departmental
+ACC,ACC 145,Introduction to ACC,300,120,Departmental
+BUS,BUS 191,Applied BUS,200,79,Departmental
+FIC,FIC 358,Advanced FIC,100,900,Universal
+GST,GST 239,Fundamentals of GST,200,543,Universal
+BCH,BCH 184,Introduction to BCH,500,110,Departmental
+ECN,ECN 582,Fundamentals of ECN,200,88,Departmental
+PHY,PHY 288,Introduction to PHY,500,56,Departmental
+MCB,MCB 460,Advanced MCB,100,130,Departmental
+PHY,PHY 343,Introduction to PHY,300,98,Departmental
+PHY,PHY 327,Introduction to PHY,100,49,Departmental
+BUS,BUS 541,Advanced BUS,200,188,Departmental
+POL,POL 548,Advanced POL,400,26,Departmental
+PHY,PHY 126,Advanced PHY,100,117,Departmental
+PHY,PHY 275,Fundamentals of PHY,100,140,Departmental
+BUS,BUS 407,Modern BUS,500,154,Departmental
+CMP,CMP 470,Fundamentals of CMP,300,158,Departmental
+MCB,MCB 362,Modern MCB,300,108,Departmental
+MTH,MTH 332,Fundamentals of MTH,100,200,Departmental
+CMP,CMP 424,Advanced CMP,400,67,Departmental
+ENG,ENG 297,Applied ENG,100,140,Departmental
+PSY,PSY 545,Applied PSY,400,76,Departmental
+FIC,FIC 164,Principles of FIC,400,1106,Universal
+MTH,MTH 101,Advanced MTH,300,131,Departmental
+FIC,FIC 248,Principles of FIC,500,770,Universal
+ACC,ACC 240,Applied ACC,100,173,Departmental
+PSY,PSY 201,Fundamentals of PSY,400,161,Departmental
+ECN,ECN 532,Advanced ECN,200,83,Departmental
+FIC,FIC 235,Introduction to FIC,200,791,Universal
+GST,GST 501,Principles of GST,500,555,Universal
+POL,POL 411,Advanced POL,200,165,Departmental
+ENG,ENG 367,Principles of ENG,200,56,Departmental
+PSY,PSY 584,Advanced PSY,200,81,Departmental
+BCH,BCH 372,Introduction to BCH,100,167,Departmental
+ECN,ECN 565,Applied ECN,400,37,Departmental
+PHY,PHY 577,Fundamentals of PHY,500,75,Departmental
+ECN,ECN 349,Applied ECN,500,49,Departmental
+ACC,ACC 525,Applied ACC,100,162,Departmental
+FIC,FIC 182,Modern FIC,400,598,Universal
+BCH,BCH 339,Fundamentals of BCH,400,199,Departmental
+BUS,BUS 228,Applied BUS,200,187,Departmental
+BCH,BCH 439,Advanced BCH,100,180,Departmental
+MTH,MTH 245,Modern MTH,200,74,Departmental
+FIC,FIC 149,Applied FIC,500,860,Universal
+PSY,PSY 326,Principles of PSY,100,103,Departmental
+BUS,BUS 274,Applied BUS,500,126,Departmental
+LAW,LAW 245,Modern LAW,200,77,Departmental
+LAW,LAW 216,Introduction to LAW,200,55,Departmental
+MCB,MCB 271,Advanced MCB,300,192,Departmental
+MCB,MCB 231,Advanced MCB,400,131,Departmental
+PSY,PSY 239,Modern PSY,200,81,Departmental
+BUS,BUS 456,Modern BUS,200,143,Departmental
+BCH,BCH 161,Fundamentals of BCH,100,131,Departmental
+ACC,ACC 411,Introduction to ACC,100,41,Departmental
+PHY,PHY 172,Applied PHY,500,160,Departmental
+ECN,ECN 491,Applied ECN,300,70,Departmental
+PSY,PSY 293,Principles of PSY,100,118,Departmental
+PSY,PSY 574,Introduction to PSY,200,186,Departmental
+BUS,BUS 202,Advanced BUS,100,77,Departmental
+BCH,BCH 219,Advanced BCH,400,60,Departmental
+FIC,FIC 504,Applied FIC,500,604,Universal
+PHY,PHY 511,Modern PHY,300,39,Departmental
+POL,POL 451,Applied POL,500,28,Departmental
+PHY,PHY 337,Principles of PHY,500,165,Departmental
+ACC,ACC 367,Principles of ACC,400,151,Departmental
+PHY,PHY 223,Modern PHY,400,170,Departmental
+MTH,MTH 130,Principles of MTH,500,99,Departmental
+MCB,MCB 381,Modern MCB,200,151,Departmental
+FIC,FIC 298,Modern FIC,200,586,Universal
+CMP,CMP 215,Introduction to CMP,300,81,Departmental
+BUS,BUS 229,Fundamentals of BUS,500,111,Departmental
+POL,POL 350,Fundamentals of POL,500,128,Departmental
+BCH,BCH 562,Fundamentals of BCH,300,186,Departmental
+ENG,ENG 369,Principles of ENG,300,54,Departmental
+CMP,CMP 203,Applied CMP,500,50,Departmental
+POL,POL 288,Introduction to POL,500,71,Departmental
+FIC,FIC 346,Modern FIC,200,507,Universal
+PSY,PSY 465,Applied PSY,500,127,Departmental
+MTH,MTH 415,Advanced MTH,100,135,Departmental
+MTH,MTH 316,Advanced MTH,300,74,Departmental
+LAW,LAW 286,Modern LAW,300,125,Departmental
+ACC,ACC 587,Advanced ACC,500,30,Departmental
+CMP,CMP 284,Introduction to CMP,100,112,Departmental
+ENG,ENG 427,Fundamentals of ENG,300,138,Departmental
+MCB,MCB 169,Principles of MCB,200,103,Departmental
+GST,GST 533,Principles of GST,400,1079,Universal
+ENG,ENG 514,Principles of ENG,100,101,Departmental
+PSY,PSY 285,Applied PSY,400,121,Departmental
+ACC,ACC 243,Fundamentals of ACC,200,163,Departmental
+BCH,BCH 597,Modern BCH,100,191,Departmental
+FIC,FIC 118,Applied FIC,400,582,Universal
+PSY,PSY 272,Advanced PSY,100,135,Departmental
+BUS,BUS 252,Advanced BUS,100,26,Departmental
+CMP,CMP 109,Modern CMP,300,119,Departmental
+ECN,ECN 540,Modern ECN,500,84,Departmental
+CMP,CMP 437,Fundamentals of CMP,100,98,Departmental
+FIC,FIC 400,Advanced FIC,300,1194,Universal
+CMP,CMP 258,Modern CMP,300,79,Departmental
+MTH,MTH 543,Principles of MTH,100,169,Departmental
+CMP,CMP 235,Introduction to CMP,200,186,Departmental
+PHY,PHY 267,Advanced PHY,200,82,Departmental
+CMP,CMP 226,Introduction to CMP,200,77,Departmental
+MCB,MCB 576,Modern MCB,300,163,Departmental
+FIC,FIC 173,Introduction to FIC,200,616,Universal
+FIC,FIC 515,Introduction to FIC,300,739,Universal
+ECN,ECN 508,Modern ECN,300,61,Departmental
+ENG,ENG 386,Introduction to ENG,200,186,Departmental
+BUS,BUS 531,Fundamentals of BUS,400,73,Departmental
+GST,GST 167,Principles of GST,200,793,Universal
+LAW,LAW 271,Applied LAW,200,24,Departmental
+CMP,CMP 313,Applied CMP,100,30,Departmental
+FIC,FIC 203,Applied FIC,100,1186,Universal
+ECN,ECN 227,Modern ECN,200,77,Departmental
+ENG,ENG 521,Modern ENG,200,38,Departmental
+MTH,MTH 141,Fundamentals of MTH,200,121,Departmental
+GST,GST 321,Advanced GST,100,595,Universal
+FIC,FIC 150,Advanced FIC,100,733,Universal
+POL,POL 487,Advanced POL,300,81,Departmental
+ACC,ACC 478,Introduction to ACC,200,64,Departmental
+ECN,ECN 283,Advanced ECN,100,127,Departmental
+PSY,PSY 504,Principles of PSY,500,104,Departmental
+LAW,LAW 352,Advanced LAW,500,100,Departmental
+MCB,MCB 402,Applied MCB,300,173,Departmental
+ECN,ECN 564,Principles of ECN,100,135,Departmental
+POL,POL 372,Introduction to POL,400,24,Departmental
+CMP,CMP 132,Advanced CMP,500,22,Departmental
+POL,POL 185,Principles of POL,500,168,Departmental
+BUS,BUS 582,Applied BUS,400,102,Departmental
+BUS,BUS 391,Advanced BUS,500,89,Departmental
+BCH,BCH 211,Principles of BCH,400,60,Departmental
+ACC,ACC 488,Fundamentals of ACC,200,74,Departmental
+CMP,CMP 426,Advanced CMP,500,50,Departmental
+FIC,FIC 414,Principles of FIC,100,849,Universal
+PHY,PHY 479,Advanced PHY,300,176,Departmental
+MTH,MTH 579,Advanced MTH,300,28,Departmental
+BUS,BUS 394,Advanced BUS,200,83,Departmental
+POL,POL 478,Introduction to POL,200,72,Departmental
+PSY,PSY 225,Fundamentals of PSY,500,169,Departmental
+ECN,ECN 174,Introduction to ECN,400,160,Departmental
+ENG,ENG 542,Modern ENG,300,143,Departmental
+ENG,ENG 279,Introduction to ENG,300,136,Departmental
+ECN,ECN 168,Advanced ECN,300,80,Departmental
+FIC,FIC 308,Modern FIC,200,932,Universal
+FIC,FIC 278,Advanced FIC,500,838,Universal
+BCH,BCH 243,Principles of BCH,500,167,Departmental
+PHY,PHY 348,Fundamentals of PHY,200,31,Departmental
+GST,GST 441,Modern GST,400,1079,Universal
+ACC,ACC 242,Modern ACC,300,24,Departmental
+GST,GST 247,Fundamentals of GST,400,601,Universal
+PHY,PHY 551,Principles of PHY,400,39,Departmental
+GST,GST 106,Advanced GST,200,741,Universal
+POL,POL 507,Introduction to POL,300,172,Departmental

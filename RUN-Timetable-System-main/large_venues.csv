@@ -1,0 +1,201 @@
+Venue Name,Capacity,Venue Type,Allowed Prefixes
+RunHall 001,100,Lecture Hall,ACC
+RunHall 002,60,Studio,GST
+RunHall 003,60,Lecture Hall,"PSY, ENG, MTH"
+RunHall 004,500,Lecture Hall,ALL
+RunHall 005,100,Lecture Hall,"FIC, PHY, CMP"
+RunHall 006,500,Studio,ALL
+RunHall 007,500,Laboratory,ALL
+RunHall 008,800,Studio,ALL
+RunHall 009,100,Lecture Hall,"LAW, MCB, CMP"
+RunHall 010,100,Lecture Hall,MCB
+RunHall 011,100,Studio,"BCH, GST, ACC"
+RunHall 012,150,Studio,"FIC, PSY"
+RunHall 013,100,Lecture Hall,GST
+RunHall 014,100,Laboratory,"LAW, BCH"
+RunHall 015,60,Studio,"POL, ACC, ENG"
+RunHall 016,150,Studio,"FIC, ECN"
+RunHall 017,250,Lecture Hall,"POL, PHY"
+RunHall 018,100,Studio,ACC
+RunHall 019,150,Laboratory,"POL, PHY, MTH"
+RunHall 020,100,Laboratory,ENG
+RunHall 021,60,Lecture Hall,"LAW, MTH, FIC"
+RunHall 022,150,Studio,FIC
+RunHall 023,100,Studio,"ACC, PHY"
+RunHall 024,60,Studio,"FIC, ACC, ENG"
+RunHall 025,250,Lecture Hall,"PHY, CMP"
+RunHall 026,100,Studio,"PSY, MTH"
+RunHall 027,250,Studio,"MTH, ACC, MCB"
+RunHall 028,60,Studio,"BUS, LAW"
+RunHall 029,60,Laboratory,"BCH, MTH"
+RunHall 030,250,Lecture Hall,"CMP, ECN, FIC"
+RunHall 031,150,Lecture Hall,"ENG, PSY, MTH"
+RunHall 032,150,Lecture Hall,"LAW, PSY"
+RunHall 033,100,Laboratory,BCH
+RunHall 034,60,Laboratory,"CMP, BCH"
+RunHall 035,500,Laboratory,ALL
+RunHall 036,800,Lecture Hall,ALL
+RunHall 037,100,Laboratory,LAW
+RunHall 038,100,Laboratory,"BCH, CMP, GST"
+RunHall 039,800,Lecture Hall,ALL
+RunHall 040,800,Laboratory,ALL
+RunHall 041,100,Laboratory,MTH
+RunHall 042,800,Lecture Hall,ALL
+RunHall 043,60,Studio,"BUS, ACC"
+RunHall 044,250,Laboratory,"GST, PHY, MTH"
+RunHall 045,100,Laboratory,BCH
+RunHall 046,60,Lecture Hall,"ENG, BCH"
+RunHall 047,150,Studio,"LAW, FIC, MCB"
+RunHall 048,100,Studio,"PSY, BUS, MCB"
+RunHall 049,60,Lecture Hall,PSY
+RunHall 050,100,Laboratory,POL
+RunHall 051,150,Studio,"GST, BCH"
+RunHall 052,60,Laboratory,"LAW, GST, MCB"
+RunHall 053,100,Lecture Hall,POL
+RunHall 054,60,Laboratory,"MTH, PHY"
+RunHall 055,60,Laboratory,"ENG, PHY"
+RunHall 056,250,Studio,"POL, BUS"
+RunHall 057,60,Laboratory,BUS
+RunHall 058,1500,Laboratory,ALL
+RunHall 059,100,Laboratory,PHY
+RunHall 060,150,Lecture Hall,"CMP, BCH"
+RunHall 061,100,Lecture Hall,"FIC, POL, ACC"
+RunHall 062,150,Lecture Hall,"BUS, LAW, ENG"
+RunHall 063,150,Lecture Hall,"ECN, BCH, PSY"
+RunHall 064,60,Lecture Hall,ACC
+RunHall 065,60,Studio,ACC
+RunHall 066,60,Laboratory,"ECN, FIC"
+RunHall 067,250,Laboratory,BCH
+RunHall 068,250,Studio,ECN
+RunHall 069,60,Laboratory,BUS
+RunHall 070,100,Lecture Hall,"PHY, MTH"
+RunHall 071,150,Lecture Hall,"CMP, ACC"
+RunHall 072,100,Studio,"PHY, BCH, ACC"
+RunHall 073,100,Laboratory,"CMP, PHY, MTH"
+RunHall 074,60,Laboratory,"ACC, PSY"
+RunHall 075,150,Studio,"LAW, MCB"
+RunHall 076,60,Studio,"MTH, BUS, CMP"
+RunHall 077,150,Lecture Hall,BUS
+RunHall 078,60,Laboratory,CMP
+RunHall 079,500,Laboratory,ALL
+RunHall 080,60,Laboratory,"BUS, ECN, PSY"
+RunHall 081,500,Laboratory,ALL
+RunHall 082,150,Lecture Hall,"FIC, ACC, ECN"
+RunHall 083,500,Lecture Hall,ALL
+RunHall 084,150,Lecture Hall,"BUS, CMP"
+RunHall 085,150,Lecture Hall,PSY
+RunHall 086,60,Lecture Hall,"PSY, GST"
+RunHall 087,250,Lecture Hall,BUS
+RunHall 088,100,Laboratory,BCH
+RunHall 089,250,Studio,CMP
+RunHall 090,150,Laboratory,"ENG, BUS"
+RunHall 091,60,Lecture Hall,"ECN, CMP"
+RunHall 092,250,Studio,"ENG, PSY, MTH"
+RunHall 093,60,Lecture Hall,"ENG, PHY"
+RunHall 094,150,Lecture Hall,BUS
+RunHall 095,250,Laboratory,"LAW, CMP, BCH"
+RunHall 096,100,Lecture Hall,"MTH, MCB"
+RunHall 097,60,Studio,"BUS, MTH, ECN"
+RunHall 098,60,Laboratory,ECN
+RunHall 099,60,Studio,BUS
+RunHall 100,250,Lecture Hall,"MTH, BUS, GST"
+RunHall 101,60,Studio,"PHY, ACC, BUS"
+RunHall 102,60,Studio,"POL, PHY, CMP"
+RunHall 103,60,Lecture Hall,"MCB, CMP, BCH"
+RunHall 104,100,Laboratory,"MCB, CMP"
+RunHall 105,150,Lecture Hall,POL
+RunHall 106,150,Studio,"BUS, LAW, PSY"
+RunHall 107,150,Studio,"MCB, BUS"
+RunHall 108,250,Laboratory,BCH
+RunHall 109,100,Studio,BCH
+RunHall 110,150,Studio,GST
+RunHall 111,100,Lecture Hall,"ACC, GST, POL"
+RunHall 112,150,Lecture Hall,ENG
+RunHall 113,60,Studio,"MTH, MCB, POL"
+RunHall 114,60,Studio,"LAW, ECN"
+RunHall 115,60,Laboratory,"MCB, MTH, ENG"
+RunHall 116,150,Lecture Hall,"PSY, MTH, GST"
+RunHall 117,60,Studio,"MCB, PHY, MTH"
+RunHall 118,500,Lecture Hall,ALL
+RunHall 119,100,Studio,ENG
+RunHall 120,60,Laboratory,"BUS, MTH"
+RunHall 121,60,Lecture Hall,"PHY, LAW"
+RunHall 122,100,Studio,"PHY, CMP"
+RunHall 123,60,Studio,"ACC, ENG"
+RunHall 124,100,Laboratory,MCB
+RunHall 125,60,Studio,"FIC, PHY, MCB"
+RunHall 126,100,Laboratory,"MCB, MTH"
+RunHall 127,60,Lecture Hall,BCH
+RunHall 128,150,Laboratory,"ENG, ECN"
+RunHall 129,60,Lecture Hall,"BCH, ACC, GST"
+RunHall 130,500,Laboratory,ALL
+RunHall 131,100,Lecture Hall,"BCH, POL"
+RunHall 132,60,Studio,"BUS, ACC, MCB"
+RunHall 133,150,Studio,"POL, ACC, PHY"
+RunHall 134,250,Lecture Hall,"BCH, POL"
+RunHall 135,60,Lecture Hall,"BUS, POL"
+RunHall 136,60,Studio,"POL, PHY"
+RunHall 137,100,Studio,"MTH, PSY, MCB"
+RunHall 138,100,Studio,"GST, ENG"
+RunHall 139,60,Lecture Hall,"LAW, ACC, BCH"
+RunHall 140,60,Studio,"CMP, PSY, ENG"
+RunHall 141,60,Studio,"CMP, PSY, LAW"
+RunHall 142,1500,Lecture Hall,ALL
+RunHall 143,60,Studio,PHY
+RunHall 144,100,Laboratory,LAW
+RunHall 145,60,Lecture Hall,"MTH, ENG, ECN"
+RunHall 146,60,Laboratory,"MTH, BUS, FIC"
+RunHall 147,150,Laboratory,FIC
+RunHall 148,250,Studio,"ENG, ACC"
+RunHall 149,60,Lecture Hall,"BCH, PSY"
+RunHall 150,1500,Laboratory,ALL
+RunHall 151,150,Studio,"ENG, POL"
+RunHall 152,60,Laboratory,MTH
+RunHall 153,60,Lecture Hall,"ECN, PSY"
+RunHall 154,100,Laboratory,"FIC, PSY"
+RunHall 155,150,Laboratory,"LAW, MTH, PHY"
+RunHall 156,60,Lecture Hall,"ECN, CMP, ACC"
+RunHall 157,60,Studio,"MTH, POL"
+RunHall 158,100,Studio,"CMP, GST"
+RunHall 159,500,Studio,ALL
+RunHall 160,60,Studio,"LAW, POL"
+RunHall 161,250,Studio,"PHY, GST, LAW"
+RunHall 162,100,Laboratory,"GST, BCH, PSY"
+RunHall 163,60,Lecture Hall,"POL, GST, BCH"
+RunHall 164,100,Lecture Hall,"FIC, PSY, CMP"
+RunHall 165,60,Lecture Hall,"ACC, CMP"
+RunHall 166,150,Laboratory,ENG
+RunHall 167,60,Laboratory,"ENG, ECN, POL"
+RunHall 168,100,Lecture Hall,POL
+RunHall 169,60,Lecture Hall,"PSY, POL, ECN"
+RunHall 170,150,Lecture Hall,"LAW, PSY"
+RunHall 171,100,Lecture Hall,"PSY, FIC"
+RunHall 172,100,Studio,BCH
+RunHall 173,60,Lecture Hall,POL
+RunHall 174,100,Lecture Hall,"CMP, BUS"
+RunHall 175,60,Studio,BCH
+RunHall 176,150,Laboratory,PHY
+RunHall 177,60,Lecture Hall,"LAW, ECN"
+RunHall 178,60,Lecture Hall,"FIC, PSY"
+RunHall 179,100,Studio,FIC
+RunHall 180,100,Lecture Hall,FIC
+RunHall 181,150,Studio,POL
+RunHall 182,60,Studio,"ECN, ENG"
+RunHall 183,100,Studio,"BCH, FIC, PSY"
+RunHall 184,60,Lecture Hall,"LAW, MCB, PSY"
+RunHall 185,150,Studio,"BUS, MTH"
+RunHall 186,60,Lecture Hall,"LAW, BCH, MTH"
+RunHall 187,500,Laboratory,ALL
+RunHall 188,800,Studio,ALL
+RunHall 189,150,Laboratory,"ECN, MTH"
+RunHall 190,60,Studio,"BCH, BUS"
+RunHall 191,60,Laboratory,ENG
+RunHall 192,250,Studio,"POL, MTH"
+RunHall 193,250,Lecture Hall,"ECN, BCH"
+RunHall 194,150,Studio,BCH
+RunHall 195,60,Studio,"GST, ENG"
+RunHall 196,100,Studio,ECN
+RunHall 197,150,Laboratory,"MTH, CMP, LAW"
+RunHall 198,250,Studio,"FIC, MCB"
+RunHall 199,100,Lecture Hall,FIC
+RunHall 200,60,Laboratory,"BCH, LAW, ENG"

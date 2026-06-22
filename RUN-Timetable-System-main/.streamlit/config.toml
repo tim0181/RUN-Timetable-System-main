@@ -1,0 +1,15 @@
+[theme]
+# RUN Navy Blue - This will color your buttons, sliders, and active elements
+primaryColor = "#020381" 
+
+# Clean White - The main background of your dashboard
+backgroundColor = "#FFFFFF" 
+
+# Light Gray - Used for the sidebar and the background of input boxes so they stand out
+secondaryBackgroundColor = "#F0F2F6" 
+
+# Dark Gray - Keeps your text readable against the white background
+textColor = "#262730" 
+
+# Clean, modern font
+font = "sans serif"
