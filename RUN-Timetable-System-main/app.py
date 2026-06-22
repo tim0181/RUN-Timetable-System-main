@@ -487,7 +487,7 @@ elif menu == "Generate Timetable":
                                     return 'border: 3px solid red; background-color: #ffe6e6;'
                                 return ''
                             
-                            styled_pivot = pivot.style.applymap(highlight_clashes)
+                            styled_pivot = pivot.style.map(highlight_clashes)
                             st.dataframe(styled_pivot, use_container_width=True)
 
                             dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
