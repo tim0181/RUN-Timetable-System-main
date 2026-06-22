@@ -40,10 +40,6 @@ def apply_theme_mode(mode: str):
                 background-color: #ffffff !important;
                 color: #0f172a !important;
             }
-            .stButton>button, .css-1emrehy.edgvbvh3 {
-                background-color: #1f77b4 !important;
-                color: #ffffff !important;
-            }
             </style>
         """
         st.markdown(css, unsafe_allow_html=True)
@@ -55,7 +51,7 @@ def apply_theme_mode(mode: str):
                 background-color: #000000 !important;
                 color: #ffffff !important;
             }
-            .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div, .css-1emrehy.edgvbvh3 {
+            .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div, .css-1w0xk5c, .css-1ycxysm {
                 background-color: #000000 !important;
                 color: #ffffff !important;
                 border-color: #ffffff !important;
@@ -74,35 +70,12 @@ def apply_theme_mode(mode: str):
             </style>
         """
         st.markdown(css, unsafe_allow_html=True)
-    else:
-        css = """
-            <style>
-            @media (prefers-color-scheme: dark) {
-                html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'] {
-                    background-color: #000000 !important;
-                    color: #ffffff !important;
-                }
-                .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div {
-                    background-color: #000000 !important;
-                    color: #ffffff !important;
-                    border-color: #ffffff !important;
-                }
-            }
-            @media (prefers-color-scheme: light) {
-                html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'] {
-                    background-color: #ffffff !important;
-                    color: #0f172a !important;
-                }
-            }
-            </style>
-        """
-        st.markdown(css, unsafe_allow_html=True)
 
 
 st.title("🎓 RUN Automated Timetable System")
 col_left, col_right = st.columns([4, 1])
 with col_right:
-    theme_mode = st.selectbox("", ["System", "Light", "Dark"], index=0, label_visibility="collapsed")
+    theme_mode = st.selectbox("", ["Light", "Dark"], index=0, label_visibility="collapsed")
 apply_theme_mode(theme_mode)
 
 st.markdown("---")
