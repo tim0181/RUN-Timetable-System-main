@@ -479,29 +479,7 @@ elif menu == "Generate Timetable":
                             )
                             pivot = pivot.reindex(columns=display_times)
                             st.subheader(f"Department: {department}")
-                            
-                            # Convert to HTML and highlight clash cells (those with multiple courses)
-                            html_table = "<table style='width:100%; border-collapse: collapse;'>"
-                            html_table += "<tr style='background-color: #f0f2f6;'>"
-                            html_table += "<th style='border: 1px solid #ccc; padding: 8px;'>Day</th>"
-                            for time_slot in display_times:
-                                html_table += f"<th style='border: 1px solid #ccc; padding: 8px;'>{time_slot}</th>"
-                            html_table += "</tr>"
-                            
-                            for day, row in pivot.iterrows():
-                                html_table += "<tr>"
-                                html_table += f"<td style='border: 1px solid #ccc; padding: 8px; font-weight: bold;'>{day}</td>"
-                                for cell_value in row:
-                                    # Check if cell has multiple courses (contains newline with join marker)
-                                    has_clash = '\n' in str(cell_value) and str(cell_value).strip() != ''
-                                    border_style = "3px solid red" if has_clash else "1px solid #ccc"
-                                    bg_color = "#ffe6e6" if has_clash else "transparent"
-                                    html_table += f"<td style='border: {border_style}; padding: 8px; background-color: {bg_color}; white-space: pre-wrap;'>{str(cell_value)}</td>"
-                                html_table += "</tr>"
-                            html_table += "</table>"
-                            
-                            components.html(html_table, height=400)
-                            st.markdown("")
+                            st.dataframe(pivot, use_container_width=True)
 
                             dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
                             st.download_button(
