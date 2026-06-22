@@ -404,59 +404,30 @@ elif menu == "Generate Timetable":
                         result_df['Day_Rank'] = result_df['Day_Name'].map(day_order)
                         result_df = result_df.sort_values(by=['Day_Rank', 'Time']).drop(columns=['Day_Rank', 'Day_Name'])
                         
-                        # Build a pivot for each department with Day rows and Time columns in ascending order
-                        display_times = [
-                            "08:00 AM - 11:00 AM",
-                            "12:00 PM - 03:00 PM",
-                            "04:00 PM - 07:00 PM"
-                        ] if timetable_type == "Exam Timetable" else [
-                            "08:00 AM - 10:00 AM",
-                            "10:00 AM - 12:00 PM",
-                            "01:00 PM - 03:00 PM",
-                            "03:00 PM - 05:00 PM"
-                        ]
+                        # Level filter for displayed timetable
+                        level_options = ["All"] + sorted(result_df['Level'].unique().tolist())
+                        selected_level = st.selectbox("Filter by Course Level", level_options, index=0)
+                        if selected_level != "All":
+                            filtered_df = result_df[result_df['Level'] == selected_level]
+                        else:
+                            filtered_df = result_df
                         
-                        for department, dept_df in result_df.groupby('Department'):
-                            dept_df = dept_df.copy()
-                            dept_df['Course Details'] = dept_df.apply(
-                                lambda row: f"{row['Course Code']} ({row['Title']})\n{row['Allocated Venue(s)']}",
-                                axis=1
-                            )
-                            pivot = dept_df.pivot_table(
-                                index='Day',
-                                columns='Time',
-                                values='Course Details',
-                                aggfunc=' \n'.join,
-                                fill_value=''
-                            )
+                        if filtered_df.empty:
+                            st.warning("No timetable entries match the selected level.")
+                        else:
+                            # Build a pivot for each department with Day rows and Time columns in ascending order
+                            display_times = [
+                                "08:00 AM - 11:00 AM",
+                                "12:00 PM - 03:00 PM",
+                                "04:00 PM - 07:00 PM"
+                            ] if timetable_type == "Exam Timetable" else [
+                                "08:00 AM - 10:00 AM",
+                                "10:00 AM - 12:00 PM",
+                                "01:00 PM - 03:00 PM",
+                                "03:00 PM - 05:00 PM"
+                            ]
                             
-                            # Ensure the full time order is preserved in the columns
-                            pivot = pivot.reindex(columns=display_times)
-                            st.subheader(f"Department: {department}")
-                            st.dataframe(pivot, use_container_width=True)
-                            
-                            dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
-                            st.download_button(
-                                label=f"📥 Download {department} Timetable as CSV",
-                                data=dept_csv,
-                                file_name=f"{timetable_type}_{target_semester}_{department}.csv",
-                                mime="text/csv",
-                                key=f"download_{department}"
-                            )
-                        
-                        # Download raw schedule as CSV
-                        csv = result_df.to_csv(index=False).encode('utf-8')
-                        st.download_button(
-                            label="📥 Download Raw Timetable as CSV",
-                            data=csv,
-                            file_name=f"{timetable_type}_{target_semester}.csv",
-                            mime="text/csv",
-                        )
-                        
-                        # Download full timetable with department sheets as Excel
-                        excel_buffer = BytesIO()
-                        with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
-                            for department, dept_df in result_df.groupby('Department'):
+                            for department, dept_df in filtered_df.groupby('Department'):
                                 dept_df = dept_df.copy()
                                 dept_df['Course Details'] = dept_df.apply(
                                     lambda row: f"{row['Course Code']} ({row['Title']})\n{row['Allocated Venue(s)']}",
@@ -469,15 +440,46 @@ elif menu == "Generate Timetable":
                                     aggfunc=' \n'.join,
                                     fill_value=''
                                 )
+                                
+                                # Ensure the full time order is preserved in the columns
                                 pivot = pivot.reindex(columns=display_times)
-                                sheet_name = department[:31]
-                                pivot.reset_index().to_excel(writer, sheet_name=sheet_name, index=False)
-                        excel_buffer.seek(0)
-                        st.download_button(
-                            label="📥 Download Full Timetable as Excel",
-                            data=excel_buffer,
-                            file_name=f"{timetable_type}_{target_semester}.xlsx",
-                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                        )
+                                st.subheader(f"Department: {department}")
+                                st.dataframe(pivot, use_container_width=True)
+                                
+                                dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
+                                st.download_button(
+                                    label=f"📥 Download {department} Timetable as CSV",
+                                    data=dept_csv,
+                                    file_name=f"{timetable_type}_{target_semester}_{department}.csv",
+                                    mime="text/csv",
+                                    key=f"download_{department}"
+                                )
+                            
+                            # Download full timetable with department sheets as Excel
+                            excel_buffer = BytesIO()
+                            with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
+                                for department, dept_df in filtered_df.groupby('Department'):
+                                    dept_df = dept_df.copy()
+                                    dept_df['Course Details'] = dept_df.apply(
+                                        lambda row: f"{row['Course Code']} ({row['Title']})\n{row['Allocated Venue(s)']}",
+                                        axis=1
+                                    )
+                                    pivot = dept_df.pivot_table(
+                                        index='Day',
+                                        columns='Time',
+                                        values='Course Details',
+                                        aggfunc=' \n'.join,
+                                        fill_value=''
+                                    )
+                                    pivot = pivot.reindex(columns=display_times)
+                                    sheet_name = department[:31]
+                                    pivot.reset_index().to_excel(writer, sheet_name=sheet_name, index=False)
+                            excel_buffer.seek(0)
+                            st.download_button(
+                                label="📥 Download Full Timetable as Excel",
+                                data=excel_buffer,
+                                file_name=f"{timetable_type}_{target_semester}.xlsx",
+                                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            )
                     else:
                         st.error("Algorithm failed to generate a schedule.")        
