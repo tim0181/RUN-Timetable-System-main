@@ -50,16 +50,25 @@ def apply_theme_mode(mode: str):
     elif mode == "Dark":
         css = """
             <style>
-            html, body, [data-testid='stAppViewContainer'] {
-                background-color: #0f172a !important;
-                color: #f8fafc !important;
+            html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'], .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-1d391kg,
+            .css-12oz5g7, .css-1siy2j7, .css-1pmc6te, .css-9s5bis {
+                background-color: #000000 !important;
+                color: #ffffff !important;
             }
-            .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-1d391kg {
-                background-color: #0f172a !important;
-                color: #f8fafc !important;
+            .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div, .css-1emrehy.edgvbvh3 {
+                background-color: #000000 !important;
+                color: #ffffff !important;
+                border-color: #ffffff !important;
             }
-            .stButton>button, .css-1emrehy.edgvbvh3 {
-                background-color: #1f77b4 !important;
+            .stButton>button:hover, .css-1emrehy.edgvbvh3:hover, button:hover {
+                background-color: #111111 !important;
+                color: #ffffff !important;
+            }
+            .css-1w0xk5c, .css-1ycxysm, .css-1d0d7s7, .css-1bym6fg {
+                background-color: #000000 !important;
+                color: #ffffff !important;
+            }
+            .stMarkdown, .streamlit-expanderHeader, .css-1v0mbdj, .css-1egvi4q {
                 color: #ffffff !important;
             }
             </style>
@@ -69,13 +78,18 @@ def apply_theme_mode(mode: str):
         css = """
             <style>
             @media (prefers-color-scheme: dark) {
-                html, body, [data-testid='stAppViewContainer'] {
-                    background-color: #0f172a !important;
-                    color: #f8fafc !important;
+                html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'] {
+                    background-color: #000000 !important;
+                    color: #ffffff !important;
+                }
+                .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div {
+                    background-color: #000000 !important;
+                    color: #ffffff !important;
+                    border-color: #ffffff !important;
                 }
             }
             @media (prefers-color-scheme: light) {
-                html, body, [data-testid='stAppViewContainer'] {
+                html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'] {
                     background-color: #ffffff !important;
                     color: #0f172a !important;
                 }
