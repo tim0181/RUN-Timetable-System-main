@@ -479,7 +479,16 @@ elif menu == "Generate Timetable":
                             )
                             pivot = pivot.reindex(columns=display_times)
                             st.subheader(f"Department: {department}")
-                            st.dataframe(pivot, use_container_width=True)
+                            
+                            # Style the dataframe to highlight clashes (cells with multiple courses)
+                            def highlight_clashes(val):
+                                """Highlight cells with multiple courses (containing newlines)"""
+                                if '\n' in str(val) and str(val).strip() != '':
+                                    return 'border: 3px solid red; background-color: #ffe6e6;'
+                                return ''
+                            
+                            styled_pivot = pivot.style.applymap(highlight_clashes)
+                            st.dataframe(styled_pivot, use_container_width=True)
 
                             dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
                             st.download_button(
