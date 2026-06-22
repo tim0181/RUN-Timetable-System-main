@@ -46,26 +46,37 @@ def apply_theme_mode(mode: str):
     elif mode == "Dark":
         css = """
             <style>
-            html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'], .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-1d391kg,
-            .css-12oz5g7, .css-1siy2j7, .css-1pmc6te, .css-9s5bis {
+            html, body, [data-testid='stAppViewContainer'], [data-testid='stSidebar'] {
                 background-color: #000000 !important;
-                color: #ffffff !important;
+                color: #f8fafc !important;
             }
-            .stButton>button, .css-1emrehy.edgvbvh3, button, .stSelectbox>div>div>div>div, .css-1w0xk5c, .css-1ycxysm {
-                background-color: #000000 !important;
-                color: #ffffff !important;
-                border-color: #ffffff !important;
-            }
-            .stButton>button:hover, .css-1emrehy.edgvbvh3:hover, button:hover {
-                background-color: #111111 !important;
-                color: #ffffff !important;
-            }
+            .css-1d391kg, .css-18e3th9, .css-1cpxqw2, .css-12oz5g7, .css-1siy2j7, .css-1pmc6te, .css-9s5bis,
             .css-1w0xk5c, .css-1ycxysm, .css-1d0d7s7, .css-1bym6fg {
+                background-color: #0a0a0a !important;
+                color: #f8fafc !important;
+                border: 1px solid #2f2f2f !important;
+            }
+            button, .stButton>button, .css-1emrehy.edgvbvh3, .stSelectbox>div>div>div>div {
                 background-color: #000000 !important;
                 color: #ffffff !important;
+                border: 1px solid #3b3b3b !important;
+                box-shadow: none !important;
             }
-            .stMarkdown, .streamlit-expanderHeader, .css-1v0mbdj, .css-1egvi4q {
+            button:hover, .stButton>button:hover, .css-1emrehy.edgvbvh3:hover {
+                background-color: #181818 !important;
                 color: #ffffff !important;
+            }
+            .stTextInput>div>div>input, .stTextArea>div>div>textarea, .stNumberInput>div>input,
+            .stSelectbox>div>div>div>div {
+                background-color: #0f0f0f !important;
+                color: #f8fafc !important;
+                border: 1px solid #2d2d2d !important;
+            }
+            .stMarkdown, .streamlit-expanderHeader, .css-1v0mbdj, .css-1egvi4q, h1, h2, h3, h4, h5, h6 {
+                color: #f8fafc !important;
+            }
+            .css-1d391kg .css-1cpxqw2, .css-18e3th9 .css-1cpxqw2 {
+                background-color: #090909 !important;
             }
             </style>
         """
