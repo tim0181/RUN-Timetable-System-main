@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 from io import BytesIO
 from sqlalchemy.orm import Session
@@ -27,6 +28,25 @@ def extract_course_details(course_code):
 # 3. Configure the Streamlit Page
 st.set_page_config(page_title="RUN Timetable Generator", layout="wide")
 
+# PWA manifest and service worker registration
+components.html(
+    """
+    <link rel="manifest" href="/app/static/manifest.json">
+    <meta name="theme-color" content="#020381">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/app/static/sw.js')
+            .then(function(reg) { console.log('Service worker registered:', reg); })
+            .catch(function(err) { console.warn('SW registration failed:', err); });
+        });
+      }
+    </script>
+    """,
+    height=0,
+)
 
 st.title("🎓 RUN Automated Timetable System")
 st.markdown("---")

@@ -13,3 +13,6 @@ textColor = "#262730"
 
 # Clean, modern font
 font = "sans serif"
+
+[server]
+enableStaticServing = true
