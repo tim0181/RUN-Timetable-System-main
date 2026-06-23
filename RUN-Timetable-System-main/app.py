@@ -477,7 +477,29 @@ elif menu == "Generate Timetable":
                                 aggfunc=' \n'.join,
                                 fill_value=''
                             )
-                            pivot = pivot.reindex(columns=display_times)
+                            # Reorder rows so the days start from Monday (handles 'Week X - Day' labels)
+                            def _day_sort_key(day_str: str):
+                                parts = str(day_str).split(' - ')
+                                if len(parts) == 2 and parts[0].strip().startswith('Week'):
+                                    # Format: 'Week N - Day'
+                                    try:
+                                        week_num = int(parts[0].strip().split()[1])
+                                    except Exception:
+                                        week_num = 0
+                                    day_name = parts[1].strip()
+                                else:
+                                    week_num = 0
+                                    day_name = parts[-1].strip()
+
+                                monday_first = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+                                try:
+                                    day_rank = monday_first.index(day_name)
+                                except ValueError:
+                                    day_rank = 7
+                                return (week_num, day_rank)
+
+                            ordered_index = sorted(pivot.index, key=_day_sort_key)
+                            pivot = pivot.reindex(index=ordered_index, columns=display_times)
                             st.subheader(f"Department: {department}")
                             
                             # Build column config for a professional schedule grid
@@ -544,7 +566,28 @@ elif menu == "Generate Timetable":
                                     aggfunc=' \n'.join,
                                     fill_value=''
                                 )
-                                pivot = pivot.reindex(columns=display_times)
+                                # Reorder rows to start from Monday for the Excel export as well
+                                def _day_sort_key_export(day_str: str):
+                                    parts = str(day_str).split(' - ')
+                                    if len(parts) == 2 and parts[0].strip().startswith('Week'):
+                                        try:
+                                            week_num = int(parts[0].strip().split()[1])
+                                        except Exception:
+                                            week_num = 0
+                                        day_name = parts[1].strip()
+                                    else:
+                                        week_num = 0
+                                        day_name = parts[-1].strip()
+
+                                    monday_first = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+                                    try:
+                                        day_rank = monday_first.index(day_name)
+                                    except ValueError:
+                                        day_rank = 7
+                                    return (week_num, day_rank)
+
+                                ordered_idx = sorted(pivot.index, key=_day_sort_key_export)
+                                pivot = pivot.reindex(index=ordered_idx, columns=display_times)
                                 sheet_name = department[:31]
                                 pivot.reset_index().to_excel(writer, sheet_name=sheet_name, index=False)
                         excel_buffer.seek(0)
