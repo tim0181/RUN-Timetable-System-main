@@ -480,40 +480,47 @@ elif menu == "Generate Timetable":
                             pivot = pivot.reindex(columns=display_times)
                             st.subheader(f"Department: {department}")
                             
-                            # Style the dataframe to highlight clashes (cells with actual venue conflicts)
+                            # Build column config for a professional schedule grid
+                            pivot = pivot.reset_index()
+                            column_config = {
+                                "Day": st.column_config.TextColumn("Day", width="medium", pinned=True),
+                            }
+                            for col in pivot.columns:
+                                if col != "Day":
+                                    column_config[col] = st.column_config.TextColumn(
+                                        col,
+                                        width="large",
+                                        max_chars=120,
+                                    )
+                            
+                            # Style the dataframe to highlight actual clash cells
                             def highlight_clashes(val):
-                                """Highlight cells with actual scheduling conflicts"""
                                 val_str = str(val).strip()
                                 if not val_str:
                                     return ''
-                                
-                                # Check if cell has multiple courses (newlines indicate multiple entries)
                                 if '\n' in val_str:
-                                    # Extract venue names from each course entry
                                     courses = val_str.split('\n')
                                     venues_per_course = []
                                     for course in courses:
-                                        # Parse format: "CMP 401 (Title)\nvenue1, venue2"
                                         lines = course.strip().split('\n')
                                         if len(lines) > 1:
-                                            venue_info = lines[-1]  # Last line is venues
-                                            venues_per_course.append(venue_info)
-                                    
-                                    # Check if same venue appears in multiple courses in this cell
+                                            venues_per_course.append(lines[-1])
                                     all_venues = []
                                     for venue_info in venues_per_course:
-                                        all_venues.extend([v.strip() for v in venue_info.split(',')])
-                                    
-                                    # If any venue appears more than once, it's a conflict
+                                        all_venues.extend([v.strip() for v in venue_info.split(',') if v.strip()])
                                     if len(all_venues) > len(set(all_venues)):
                                         return 'border: 3px solid red; background-color: #ffe6e6;'
-                                
                                 return ''
                             
                             styled_pivot = pivot.style.map(highlight_clashes)
-                            st.dataframe(styled_pivot, use_container_width=True)
+                            st.dataframe(
+                                styled_pivot,
+                                use_container_width=True,
+                                hide_index=True,
+                                column_config=column_config,
+                            )
 
-                            dept_csv = pivot.reset_index().to_csv(index=False).encode('utf-8')
+                            dept_csv = pivot.to_csv(index=False).encode('utf-8')
                             st.download_button(
                                 label=f"📥 Download {department} Timetable as CSV",
                                 data=dept_csv,
